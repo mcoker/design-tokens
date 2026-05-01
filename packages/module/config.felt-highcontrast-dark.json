@@ -1,0 +1,25 @@
+{
+  "source": [
+    "tokens/default/highcontrast-dark/*.json",
+    "tokens/felt/highcontrast-dark/felt*.json"
+  ],
+  "platforms": {
+    "css": {
+      "transformGroup": "patternfly/css",
+      "buildPath": "build/css/",
+      "prefix": "pf-t",
+      "files": [{
+        "destination": "tokens-felt-highcontrast-dark.scss",
+        "format": "customFormat",
+        "options": {
+          "outputReferences": true
+        },
+        "filter": {
+          "attributes": {
+            "category": "global"
+          }
+        }
+      }]
+    }
+  }
+}

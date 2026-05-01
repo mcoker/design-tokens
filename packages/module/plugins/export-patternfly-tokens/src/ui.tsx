@@ -35,7 +35,7 @@ const saveVars = (text, setJsonFiles, setZipFile) => {
         saveFolderNames = ['default/light', 'default/highcontrast', 'default/glass'];
         break;
       // Base color - dark
-      case '/* Base Color Tokens - Dark.Mode 1.tokens.json */':
+      case '/* Base Color Tokens - Dark.Value.tokens.json */':
         saveFileName = 'base.dark.json';
         saveFolderNames = ['default/dark', 'default/highcontrast-dark', 'default/glass-dark'];
         break;
@@ -82,21 +82,21 @@ const saveVars = (text, setJsonFiles, setZipFile) => {
         saveFolderNames = ['default/highcontrast-dark'];
         break;
       // Semantic dimension
-      case ('/* Semantic Dimension Tokens.Default.tokens.json */'):
+      case ('/* Default Semantic Dimension Tokens.Default.tokens.json */'):
         saveFileName = 'semantic.dimension.json';
         saveFolderNames = ['default/light'];
         break;
       // Semantic dimension - high contrast
-      case '/* Semantic Dimension Tokens.High Contrast - Beta.tokens.json */':
+      case '/* Default Semantic Dimension Tokens.High Contrast - Beta.tokens.json */':
         saveFileName = 'semantic.dimension.highcontrast.json';
         saveFolderNames = ['default/highcontrast'];
         break;
-      case ('/* Semantic Dimension Tokens.Glass.tokens.json */'):
+      case ('/* Default Semantic Dimension Tokens.Glass.tokens.json */'):
         saveFileName = 'semantic.dimension.glass.json';
         saveFolderNames = ['default/glass'];
         break;
       // Semantic motion
-      case '/* Semantic Motion Tokens.Mode 1.tokens.json */':
+      case '/* Semantic Motion Tokens.Semantic Motion tokens.tokens.json */':
         saveFileName = 'semantic.motion.json';
         saveFolderNames = ['default/light'];
         break;
@@ -112,44 +112,54 @@ const saveVars = (text, setJsonFiles, setZipFile) => {
         saveFileName = 'charts.dark.json';
         saveFolderNames = ['default/dark'];
         break;
+      // Charts - high contrast - light
+      case '/* Charts.High Contrast - Light.tokens.json */':
+        saveFileName = 'charts.highcontrast.json';
+        saveFolderNames = ['default/light'];
+        break;
+      // Charts - high contrast - dark
+      case '/* Charts.High Contrast - Dark.tokens.json */':
+        saveFileName = 'charts.highcontrast.dark.json';
+        saveFolderNames = ['default/dark'];
+        break;
 
-      // Red Hat color tokens
-      case '/* Red Hat Color Tokens.Light.tokens.json */':
-        saveFileName = 'redhat.color.json';
-        saveFolderNames = ['redhat/light'];
+      // Felt color tokens
+      case '/* Felt Color Tokens.Light.tokens.json */':
+        saveFileName = 'felt.color.json';
+        saveFolderNames = ['felt/light'];
         break;
-      case '/* Red Hat Color Tokens.Dark.tokens.json */':
-        saveFileName = 'redhat.color.dark.json';
-        saveFolderNames = ['redhat/dark'];
+      case '/* Felt Color Tokens.Dark.tokens.json */':
+        saveFileName = 'felt.color.dark.json';
+        saveFolderNames = ['felt/dark'];
         break;
-      case '/* Red Hat Color Tokens.Light - Glass.tokens.json */':
-        saveFileName = 'redhat.color.glass.json';
-        saveFolderNames = ['redhat/glass'];
+      case '/* Felt Color Tokens.Light - Glass.tokens.json */':
+        saveFileName = 'felt.color.glass.json';
+        saveFolderNames = ['felt/glass'];
         break;
-      case '/* Red Hat Color Tokens.Dark - Glass.tokens.json */':
-        saveFileName = 'redhat.color.glass.dark.json';
-        saveFolderNames = ['redhat/glass-dark'];
+      case '/* Felt Color Tokens.Dark - Glass.tokens.json */':
+        saveFileName = 'felt.color.glass.dark.json';
+        saveFolderNames = ['felt/glass-dark'];
         break;
-      case '/* Red Hat Color Tokens.Light - High Contrast (Beta).tokens.json */':
-        saveFileName = 'redhat.color.highcontrast.json';
-        saveFolderNames = ['redhat/highcontrast'];
+      case '/* Felt Color Tokens.Light - High Contrast (Beta).tokens.json */':
+        saveFileName = 'felt.color.highcontrast.json';
+        saveFolderNames = ['felt/highcontrast'];
         break;
-      case '/* Red Hat Color Tokens.Dark - High Contrast (Beta).tokens.json */':
-        saveFileName = 'redhat.color.highcontrast.dark.json';
-        saveFolderNames = ['redhat/highcontrast-dark'];
+      case '/* Felt Color Tokens.Dark - High Contrast (Beta).tokens.json */':
+        saveFileName = 'felt.color.highcontrast.dark.json';
+        saveFolderNames = ['felt/highcontrast-dark'];
         break;
-      // Red Hat dimension tokens
-      case '/* Red Hat Dimension Tokens.Default.tokens.json */':
-        saveFileName = 'redhat.dimension.json';
-        saveFolderNames = ['redhat/light'];
+      // Felt dimension tokens
+      case '/* Felt Dimension Tokens.Default.tokens.json */':
+        saveFileName = 'felt.dimension.json';
+        saveFolderNames = ['felt/light'];
         break;
-      case '/* Red Hat Dimension Tokens.Glass.tokens.json */':
-        saveFileName = 'redhat.dimension.glass.json';
-        saveFolderNames = ['redhat/glass'];
+      case '/* Felt Dimension Tokens.Glass.tokens.json */':
+        saveFileName = 'felt.dimension.glass.json';
+        saveFolderNames = ['felt/glass'];
         break;
-      case '/* Red Hat Dimension Tokens.High Contrast - Beta.tokens.json */':
-        saveFileName = 'redhat.dimension.highcontrast.json';
-        saveFolderNames = ['redhat/highcontrast'];
+      case '/* Felt Dimension Tokens.High Contrast - Beta.tokens.json */':
+        saveFileName = 'felt.dimension.highcontrast.json';
+        saveFolderNames = ['felt/highcontrast'];
         break;
       default:
         saveFileName = splitFiles[i].split('\n', 1)[0];

@@ -1,0 +1,26 @@
+{
+  "source": [
+    "tokens/default/light/*.json",
+    "tokens/felt/light/felt*.json"
+  ],
+  "basePxFontSize": 16,
+  "platforms": {
+    "css": {
+      "transformGroup": "patternfly/css",
+      "buildPath": "build/css/",
+      "prefix": "pf-t",
+      "files": [{
+        "destination": "tokens-felt.scss",
+        "format": "customFormat",
+        "options": {
+          "outputReferences": true
+        },
+        "filter": {
+          "attributes": {
+            "category": "global"
+          }
+        }
+      }]
+    }
+  }
+}

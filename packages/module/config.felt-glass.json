@@ -1,0 +1,26 @@
+{
+  "source": [
+    "tokens/default/glass/*.json",
+    "tokens/felt/glass/felt*.json"
+  ],
+  "basePxFontSize": 16,
+  "platforms": {
+    "css": {
+      "transformGroup": "patternfly/css",
+      "buildPath": "build/css/",
+      "prefix": "pf-t",
+      "files": [{
+        "destination": "tokens-felt-glass.scss",
+        "format": "customFormat",
+        "options": {
+          "outputReferences": true
+        },
+        "filter": {
+          "attributes": {
+            "category": "global"
+          }
+        }
+      }]
+    }
+  }
+}

@@ -216,24 +216,24 @@ const build = (selector) => {
   const layersHighContrastDarkSD = StyleDictionary.extend(__dirname + '/config.layers.highcontrast-dark.json');
   layersHighContrastDarkSD.buildAllPlatforms();
 
-  console.log('Building layer configs for redhat themes...');
-  const layersRedhatSD = StyleDictionary.extend(__dirname + '/config.layers.redhat.json');
-  layersRedhatSD.buildAllPlatforms();
+  console.log('Building layer configs for felt themes...');
+  const layersFeltSD = StyleDictionary.extend(__dirname + '/config.layers.felt.json');
+  layersFeltSD.buildAllPlatforms();
 
-  const layersRedhatDarkSD = StyleDictionary.extend(__dirname + '/config.layers.redhat-dark.json');
-  layersRedhatDarkSD.buildAllPlatforms();
+  const layersFeltDarkSD = StyleDictionary.extend(__dirname + '/config.layers.felt-dark.json');
+  layersFeltDarkSD.buildAllPlatforms();
 
-  const layersRedhatGlassSD = StyleDictionary.extend(__dirname + '/config.layers.redhat-glass.json');
-  layersRedhatGlassSD.buildAllPlatforms();
+  const layersFeltGlassSD = StyleDictionary.extend(__dirname + '/config.layers.felt-glass.json');
+  layersFeltGlassSD.buildAllPlatforms();
 
-  const layersRedhatGlassDarkSD = StyleDictionary.extend(__dirname + '/config.layers.redhat-glass-dark.json');
-  layersRedhatGlassDarkSD.buildAllPlatforms();
+  const layersFeltGlassDarkSD = StyleDictionary.extend(__dirname + '/config.layers.felt-glass-dark.json');
+  layersFeltGlassDarkSD.buildAllPlatforms();
 
-  const layersRedhatHighContrastSD = StyleDictionary.extend(__dirname + '/config.layers.redhat-highcontrast.json');
-  layersRedhatHighContrastSD.buildAllPlatforms();
+  const layersFeltHighContrastSD = StyleDictionary.extend(__dirname + '/config.layers.felt-highcontrast.json');
+  layersFeltHighContrastSD.buildAllPlatforms();
 
-  const layersRedhatHighContrastDarkSD = StyleDictionary.extend(__dirname + '/config.layers.redhat-highcontrast-dark.json');
-  layersRedhatHighContrastDarkSD.buildAllPlatforms();
+  const layersFeltHighContrastDarkSD = StyleDictionary.extend(__dirname + '/config.layers.felt-highcontrast-dark.json');
+  layersFeltHighContrastDarkSD.buildAllPlatforms();
 
   // Step 3: Build glass themes
   console.log('Building glass themes...');
@@ -254,59 +254,59 @@ const build = (selector) => {
     path.join(buildPath, 'tokens-glass-dark.scss')
   );
 
-  // Step 5: Build redhat themes
-  console.log('Building redhat themes...');
-  const redhatExtendedSD = StyleDictionary.extend(__dirname + '/config.redhat.json');
-  redhatExtendedSD.buildAllPlatforms();
+  // Step 5: Build felt themes
+  console.log('Building felt themes...');
+  const feltExtendedSD = StyleDictionary.extend(__dirname + '/config.felt.json');
+  feltExtendedSD.buildAllPlatforms();
 
-  const redhatDarkExtendedSD = StyleDictionary.extend(__dirname + '/config.redhat-dark.json');
-  redhatDarkExtendedSD.buildAllPlatforms();
+  const feltDarkExtendedSD = StyleDictionary.extend(__dirname + '/config.felt-dark.json');
+  feltDarkExtendedSD.buildAllPlatforms();
 
-  const redhatGlassExtendedSD = StyleDictionary.extend(__dirname + '/config.redhat-glass.json');
-  redhatGlassExtendedSD.buildAllPlatforms();
+  const feltGlassExtendedSD = StyleDictionary.extend(__dirname + '/config.felt-glass.json');
+  feltGlassExtendedSD.buildAllPlatforms();
 
-  const redhatGlassDarkExtendedSD = StyleDictionary.extend(__dirname + '/config.redhat-glass-dark.json');
-  redhatGlassDarkExtendedSD.buildAllPlatforms();
+  const feltGlassDarkExtendedSD = StyleDictionary.extend(__dirname + '/config.felt-glass-dark.json');
+  feltGlassDarkExtendedSD.buildAllPlatforms();
 
-  const redhatHighContrastExtendedSD = StyleDictionary.extend(__dirname + '/config.redhat-highcontrast.json');
-  redhatHighContrastExtendedSD.buildAllPlatforms();
+  const feltHighContrastExtendedSD = StyleDictionary.extend(__dirname + '/config.felt-highcontrast.json');
+  feltHighContrastExtendedSD.buildAllPlatforms();
 
-  const redhatHighContrastDarkExtendedSD = StyleDictionary.extend(__dirname + '/config.redhat-highcontrast-dark.json');
-  redhatHighContrastDarkExtendedSD.buildAllPlatforms();
+  const feltHighContrastDarkExtendedSD = StyleDictionary.extend(__dirname + '/config.felt-highcontrast-dark.json');
+  feltHighContrastDarkExtendedSD.buildAllPlatforms();
 
-  // Set glass tokens to initial in redhat non-glass themes
-  console.log('Setting glass tokens to initial in redhat themes...');
-  setGlassTokensToInitial(path.join(buildPath, 'tokens-redhat.scss'));
-  setGlassTokensToInitial(path.join(buildPath, 'tokens-redhat-dark.scss'));
-  setGlassTokensToInitial(path.join(buildPath, 'tokens-redhat-highcontrast.scss'));
-  setGlassTokensToInitial(path.join(buildPath, 'tokens-redhat-highcontrast-dark.scss'));
+  // Set glass tokens to initial in felt non-glass themes
+  console.log('Setting glass tokens to initial in felt themes...');
+  setGlassTokensToInitial(path.join(buildPath, 'tokens-felt.scss'));
+  setGlassTokensToInitial(path.join(buildPath, 'tokens-felt-dark.scss'));
+  setGlassTokensToInitial(path.join(buildPath, 'tokens-felt-highcontrast.scss'));
+  setGlassTokensToInitial(path.join(buildPath, 'tokens-felt-highcontrast-dark.scss'));
 
-  // Step 6: Remove duplicate variables from redhat SCSS files
-  console.log('Removing duplicate variables from redhat themes...');
+  // Step 6: Remove duplicate variables from felt SCSS files
+  console.log('Removing duplicate variables from felt themes...');
   removeDuplicateVariables(
     path.join(buildPath, 'tokens-default.scss'),
-    path.join(buildPath, 'tokens-redhat.scss')
+    path.join(buildPath, 'tokens-felt.scss')
   );
   removeDuplicateVariables(
     path.join(buildPath, 'tokens-dark.scss'),
-    path.join(buildPath, 'tokens-redhat-dark.scss')
+    path.join(buildPath, 'tokens-felt-dark.scss')
   );
-  // Redhat glass themes compare against default (not glass), because they source all default/glass tokens
+  // Felt glass themes compare against default (not glass), because they source all default/glass tokens
   removeDuplicateVariables(
     path.join(buildPath, 'tokens-default.scss'),
-    path.join(buildPath, 'tokens-redhat-glass.scss')
+    path.join(buildPath, 'tokens-felt-glass.scss')
   );
   removeDuplicateVariables(
     path.join(buildPath, 'tokens-dark.scss'),
-    path.join(buildPath, 'tokens-redhat-glass-dark.scss')
+    path.join(buildPath, 'tokens-felt-glass-dark.scss')
   );
   removeDuplicateVariables(
     path.join(buildPath, 'tokens-default.scss'),
-    path.join(buildPath, 'tokens-redhat-highcontrast.scss')
+    path.join(buildPath, 'tokens-felt-highcontrast.scss')
   );
   removeDuplicateVariables(
     path.join(buildPath, 'tokens-dark.scss'),
-    path.join(buildPath, 'tokens-redhat-highcontrast-dark.scss')
+    path.join(buildPath, 'tokens-felt-highcontrast-dark.scss')
   );
 
   console.log('\n============================');

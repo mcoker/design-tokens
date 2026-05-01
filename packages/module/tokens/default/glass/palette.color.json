@@ -5,6 +5,10 @@
       "type": "color",
       "value": "#ffffff"
     },
+    "black": {
+      "type": "color",
+      "value": "#000000"
+    },
     "gray": {
       "10": {
         "type": "color",
@@ -50,10 +54,6 @@
         "type": "color",
         "value": "#151515"
       }
-    },
-    "black": {
-      "type": "color",
-      "value": "#000000"
     },
     "blue": {
       "10": {
