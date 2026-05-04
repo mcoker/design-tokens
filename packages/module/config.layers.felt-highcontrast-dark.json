@@ -1,0 +1,22 @@
+{
+  "source": [
+    "tokens/default/highcontrast-dark/*.json",
+    "tokens/felt/highcontrast-dark/felt*.json"
+  ],
+  "platforms": {
+    "json/default": {
+      "transformGroup": "patternfly/css",
+      "buildPath": "patternfly-docs/content/",
+      "prefix": "pf-t",
+      "files": [
+        {
+          "destination": "token-layers-felt-highcontrast-dark.json",
+          "format": "json/flat-categories",
+          "options": {
+            "outputReferences": false
+          }
+        }
+      ]
+    }
+  }
+}

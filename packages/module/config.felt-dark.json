@@ -1,0 +1,25 @@
+{
+  "source": [
+    "tokens/default/dark/*.json",
+    "tokens/felt/dark/felt*.json"
+  ],
+  "platforms": {
+    "css": {
+      "transformGroup": "patternfly/css",
+      "buildPath": "build/css/",
+      "prefix": "pf-t",
+      "files": [{
+        "destination": "tokens-felt-dark.scss",
+        "format": "customFormat",
+        "options": {
+          "outputReferences": true
+        },
+        "filter": {
+          "attributes": {
+            "category": "global"
+          }
+        }
+      }]
+    }
+  }
+}

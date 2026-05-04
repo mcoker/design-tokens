@@ -559,6 +559,31 @@
     },
     "icon": {
       "color": {
+        "regular": {
+          "description": "Use as the default color for icons in icon buttons and/or when paired with regular-colored text",
+          "type": "color",
+          "value": "{global.dark.icon.color.100}"
+        },
+        "subtle": {
+          "description": "Use as the color for icons when you want the icon to have less emphasis and/or when paired with subtle-colored text",
+          "type": "color",
+          "value": "{global.dark.icon.color.200}"
+        },
+        "inverse": {
+          "description": "Use as the color for icons that are placed on an inverse background color",
+          "type": "color",
+          "value": "{global.dark.icon.color.300}"
+        },
+        "disabled": {
+          "description": "Use as the color for icons that show in disabled icon buttons and/or when paired with disabled-color text",
+          "type": "color",
+          "value": "{global.dark.color.disabled.200}"
+        },
+        "on-disabled": {
+          "description": "Use as the color for icons that are placed on a disabled background color and/or are paired with on-disabled colored text.",
+          "type": "color",
+          "value": "{global.dark.color.disabled.300}"
+        },
         "brand": {
           "default": {
             "description": "Use as the color for icons that convey your brand and/or are paired with branded text color.",
@@ -869,31 +894,6 @@
             }
           }
         },
-        "regular": {
-          "description": "Use as the default color for icons in icon buttons and/or when paired with regular-colored text",
-          "type": "color",
-          "value": "{global.dark.icon.color.100}"
-        },
-        "subtle": {
-          "description": "Use as the color for icons when you want the icon to have less emphasis and/or when paired with subtle-colored text",
-          "type": "color",
-          "value": "{global.dark.icon.color.200}"
-        },
-        "inverse": {
-          "description": "Use as the color for icons that are placed on an inverse background color",
-          "type": "color",
-          "value": "{global.dark.icon.color.300}"
-        },
-        "disabled": {
-          "description": "Use as the color for icons that show in disabled icon buttons and/or when paired with disabled-color text",
-          "type": "color",
-          "value": "{global.dark.color.disabled.200}"
-        },
-        "on-disabled": {
-          "description": "Use as the color for icons that are placed on a disabled background color and/or are paired with on-disabled colored text.",
-          "type": "color",
-          "value": "{global.dark.color.disabled.300}"
-        },
         "severity": {
           "undefined": {
             "default": {
@@ -1097,14 +1097,52 @@
     },
     "border": {
       "color": {
+        "high-contrast": {
+          "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
+          "type": "color",
+          "value": "{global.border.color.default}"
+        },
+        "default": {
+          "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
+          "type": "color",
+          "value": "{global.dark.border.color.300}"
+        },
+        "hover": {
+          "description": "Use as the hover state border color for elements like form inputs, menu toggles, cards, etc.",
+          "type": "color",
+          "value": "{global.dark.color.brand.100}"
+        },
+        "clicked": {
+          "description": "Use as the clicked state border color for elements like form inputs, menu toggles, cards, etc.",
+          "type": "color",
+          "value": "{global.dark.color.brand.200}"
+        },
+        "subtle": {
+          "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
+          "type": "color",
+          "value": "{global.dark.border.color.300}"
+        },
+        "disabled": {
+          "description": "Use as the disabled border color for elements like form inputs, menu toggles, cards, etc.",
+          "type": "color",
+          "value": "{global.dark.color.disabled.100}"
+        },
+        "alt": {
+          "description": "Use when border color needs to match the primary bkg color – helpful when you want a divider to look like negative space when shown on a colored bkg",
+          "type": "color",
+          "value": "{global.background.color.primary.default}"
+        },
+        "on-secondary": {
+          "description": "Use on borders/dividers that are placed on a secondary bkg color.",
+          "type": "color",
+          "value": "{global.dark.border.color.300}"
+        },
         "control": {
           "default": {
-            "description": "Use as the default border for control elements like form inputs, menu toggles, and clickable cards",
             "type": "color",
             "value": "{global.dark.border.color.300}"
           },
           "read-only": {
-            "description": "Use as the read-only border for control elements like form inputs, menu toggles.",
             "type": "color",
             "value": "{global.dark.border.color.50}"
           }
@@ -1127,34 +1165,34 @@
           },
           "accent": {
             "default": {
-              "description": "Use as the default border color for any accented branded element, like secondary CTAs",
+              "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
               "type": "color",
               "value": "{global.color.brand.accent.default}"
             },
             "hover": {
-              "description": "Use as the hover border color for any accented branded element, like secondary CTAs",
+              "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
               "type": "color",
               "value": "{global.color.brand.accent.hover}"
             },
             "clicked": {
-              "description": "Use as the clicked border color for any accented branded element, like secondary CTAs",
+              "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
               "type": "color",
               "value": "{global.color.brand.accent.clicked}"
             }
           },
           "subtle": {
             "default": {
-              "description": "Use as the default border color for any subtle brand element like toggle groups",
+              "description": "Use as the default border color for any branded element, like color-coded labels, banners, etc.",
               "type": "color",
               "value": "{global.dark.color.brand.subtle.200}"
             },
             "hover": {
-              "description": "Use as the hover border color for any subtle brand element like toggle groups",
+              "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
               "type": "color",
               "value": "{global.dark.color.brand.subtle.300}"
             },
             "clicked": {
-              "description": "Use as the clicked border color for any subtle brand element like toggle groups",
+              "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
               "type": "color",
               "value": "{global.dark.color.brand.subtle.300}"
             }
@@ -1246,46 +1284,6 @@
               "value": "{global.color.status.custom.clicked}"
             }
           }
-        },
-        "high-contrast": {
-          "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
-          "type": "color",
-          "value": "{global.border.color.default}"
-        },
-        "default": {
-          "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
-          "type": "color",
-          "value": "{global.dark.border.color.300}"
-        },
-        "hover": {
-          "description": "Use as the hover state border color for elements like form inputs, menu toggles, cards, etc.",
-          "type": "color",
-          "value": "{global.dark.color.brand.100}"
-        },
-        "clicked": {
-          "description": "Use as the clicked state border color for elements like form inputs, menu toggles, cards, etc.",
-          "type": "color",
-          "value": "{global.dark.color.brand.200}"
-        },
-        "subtle": {
-          "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
-          "type": "color",
-          "value": "{global.dark.border.color.300}"
-        },
-        "disabled": {
-          "description": "Use as the disabled border color for elements like form inputs, menu toggles, cards, etc.",
-          "type": "color",
-          "value": "{global.dark.color.disabled.100}"
-        },
-        "alt": {
-          "description": "Use when border color needs to match the primary bkg color – helpful when you want a divider to look like negative space when shown on a colored bkg",
-          "type": "color",
-          "value": "{global.background.color.primary.default}"
-        },
-        "on-secondary": {
-          "description": "Use on borders/dividers that are placed on a secondary bkg color.",
-          "type": "color",
-          "value": "{global.dark.border.color.300}"
         },
         "glass": {
           "default": {
@@ -1458,6 +1456,46 @@
     },
     "text": {
       "color": {
+        "regular": {
+          "description": "Use as the primary color for standard text, like heading/body copy. Icons paired with regular text should inherit this color or should use global/icon/color/regular.",
+          "type": "color",
+          "value": "{global.dark.text.color.100}"
+        },
+        "subtle": {
+          "description": "Use as a subtle text color for text in an element that is secondary or less important, like descriptions or inactive tab labels.",
+          "type": "color",
+          "value": "{global.dark.text.color.200}"
+        },
+        "inverse": {
+          "description": "Use as the color of text that is placed on an inverse background color, like tooltips.",
+          "type": "color",
+          "value": "{global.dark.text.color.300}"
+        },
+        "placeholder": {
+          "description": "Use as the color of text that serves as a placeholder, like within a search bar/input.",
+          "type": "color",
+          "value": "{global.text.color.subtle}"
+        },
+        "disabled": {
+          "description": "Use as the color of text on disabled elements, like disabled menu items.",
+          "type": "color",
+          "value": "{global.dark.color.disabled.200}"
+        },
+        "on-disabled": {
+          "description": "Use as the color of text that is placed on a disabled background, like disabled menu toggles or tabs.",
+          "type": "color",
+          "value": "{global.dark.color.disabled.400}"
+        },
+        "required": {
+          "description": "Use as the color of text that signals that action/information is required from users, like asterisks placed beside form fields or checkboxes.",
+          "type": "color",
+          "value": "{global.dark.text.color.400}"
+        },
+        "on-highlight": {
+          "description": "Use as the color of text that is highlighted.",
+          "type": "color",
+          "value": "{global.dark.text.color.300}"
+        },
         "link": {
           "default": {
             "description": "Use as the default text color for links.",
@@ -1491,21 +1529,6 @@
             "type": "color",
             "value": "{global.dark.color.brand.300}"
           }
-        },
-        "regular": {
-          "description": "Use as the primary color for standard text, like heading/body copy. Icons paired with regular text should inherit this color or should use global/icon/color/regular.",
-          "type": "color",
-          "value": "{global.dark.text.color.100}"
-        },
-        "subtle": {
-          "description": "Use as a subtle text color for text in an element that is secondary or less important, like descriptions or inactive tab labels.",
-          "type": "color",
-          "value": "{global.dark.text.color.200}"
-        },
-        "inverse": {
-          "description": "Use as the color of text that is placed on an inverse background color, like tooltips.",
-          "type": "color",
-          "value": "{global.dark.text.color.300}"
         },
         "on-brand": {
           "default": {
@@ -1557,31 +1580,6 @@
               "value": "{global.text.color.regular}"
             }
           }
-        },
-        "placeholder": {
-          "description": "Use as the color of text that serves as a placeholder, like within a search bar/input.",
-          "type": "color",
-          "value": "{global.text.color.subtle}"
-        },
-        "disabled": {
-          "description": "Use as the color of text on disabled elements, like disabled menu items.",
-          "type": "color",
-          "value": "{global.dark.color.disabled.200}"
-        },
-        "on-disabled": {
-          "description": "Use as the color of text that is placed on a disabled background, like disabled menu toggles or tabs.",
-          "type": "color",
-          "value": "{global.dark.color.disabled.400}"
-        },
-        "required": {
-          "description": "Use as the color of text that signals that action/information is required from users, like asterisks placed beside form fields or checkboxes.",
-          "type": "color",
-          "value": "{global.dark.text.color.400}"
-        },
-        "on-highlight": {
-          "description": "Use as the color of text that is highlighted.",
-          "type": "color",
-          "value": "{global.dark.text.color.300}"
         },
         "status": {
           "success": {
@@ -1982,15 +1980,6 @@
         }
       }
     },
-    "focus-ring": {
-      "color": {
-        "default": {
-          "description": "Use as color value for custom focus rings",
-          "type": "color",
-          "value": "{global.dark.focus-ring.color.100}"
-        }
-      }
-    },
     "text-decoration": {
       "color": {
         "default": {
@@ -2000,6 +1989,15 @@
         "hover": {
           "type": "color",
           "value": "{global.border.color.hover}"
+        }
+      }
+    },
+    "focus-ring": {
+      "color": {
+        "default": {
+          "description": "Use as color value for custom focus rings",
+          "type": "color",
+          "value": "{global.dark.focus-ring.color.100}"
         }
       }
     }

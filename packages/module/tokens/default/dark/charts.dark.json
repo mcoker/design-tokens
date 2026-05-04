@@ -180,6 +180,18 @@
       }
     },
     "global": {
+      "letter-spacing": {
+        "type": "string",
+        "value": "normal"
+      },
+      "stroke-line-cap": {
+        "type": "string",
+        "value": "round"
+      },
+      "stroke-line-join": {
+        "type": "string",
+        "value": "round"
+      },
       "BorderWidth": {
         "xs": {
           "type": "number",
@@ -288,10 +300,6 @@
           "value": 22
         }
       },
-      "letter-spacing": {
-        "type": "string",
-        "value": "normal"
-      },
       "layout": {
         "padding": {
           "type": "number",
@@ -306,10 +314,6 @@
           "value": 450
         }
       },
-      "stroke-line-cap": {
-        "type": "string",
-        "value": "round"
-      },
       "label": {
         "padding": {
           "type": "number",
@@ -319,14 +323,6 @@
           "type": "number",
           "value": 8
         },
-        "stroke": {
-          "width": {
-            "type": "number",
-            "value": 0
-          },
-          "type": "string",
-          "value": "transparent"
-        },
         "text-anchor": {
           "type": "string",
           "value": "middle"
@@ -334,11 +330,15 @@
         "fill": {
           "type": "color",
           "value": "{color.white}"
+        },
+        "stroke": {
+          "width": {
+            "type": "number",
+            "value": 0
+          },
+          "type": "string",
+          "value": "transparent"
         }
-      },
-      "stroke-line-join": {
-        "type": "string",
-        "value": "round"
       }
     },
     "theme": {

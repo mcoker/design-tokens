@@ -33,12 +33,6 @@
           "type": "number",
           "value": "{global.border.radius.500}"
         },
-        "glass": {
-          "default": {
-            "type": "number",
-            "value": "{global.border.radius.medium}"
-          }
-        },
         "control": {
           "default": {
             "type": "number",
@@ -49,20 +43,41 @@
             "value": "{global.border.radius.small}"
           }
         },
+        "glass": {
+          "default": {
+            "type": "number",
+            "value": "{global.border.radius.medium}"
+          }
+        },
         "action": {
+          "default": {
+            "type": "number",
+            "value": "{global.border.radius.pill}"
+          },
           "plain": {
             "default": {
               "type": "number",
               "value": "{global.border.radius.small}"
             }
-          },
-          "default": {
-            "type": "number",
-            "value": "{global.border.radius.pill}"
           }
         }
       },
       "width": {
+        "regular": {
+          "description": "Use as the default border width for elements.",
+          "type": "number",
+          "value": "{global.border.width.100}"
+        },
+        "strong": {
+          "description": "Use as a stronger/wider border width for elements.",
+          "type": "number",
+          "value": "{global.border.width.200}"
+        },
+        "extra-strong": {
+          "description": "Use as the strongest/widest border width for elements.",
+          "type": "number",
+          "value": "{global.border.width.300}"
+        },
         "divider": {
           "default": {
             "description": "Use as the default border width for dividers.",
@@ -79,21 +94,6 @@
             "type": "number",
             "value": "{global.border.width.100}"
           }
-        },
-        "regular": {
-          "description": "Use as the default border width for elements.",
-          "type": "number",
-          "value": "{global.border.width.100}"
-        },
-        "strong": {
-          "description": "Use as a stronger/wider border width for elements.",
-          "type": "number",
-          "value": "{global.border.width.200}"
-        },
-        "extra-strong": {
-          "description": "Use as the strongest/widest border width for elements.",
-          "type": "number",
-          "value": "{global.border.width.300}"
         },
         "glass": {
           "default": {
@@ -156,6 +156,16 @@
             "type": "number",
             "value": "{global.border.width.100}"
           },
+          "hover": {
+            "description": "Use as the hover state border width for actions like secondary and tertiary buttons",
+            "type": "number",
+            "value": "{global.border.width.200}"
+          },
+          "clicked": {
+            "description": "Use as the clicked state border width for actions like secondary and tertiary buttons",
+            "type": "number",
+            "value": "{global.border.width.200}"
+          },
           "plain": {
             "default": {
               "description": "Use as the default border width for plain actions",
@@ -172,16 +182,6 @@
               "type": "number",
               "value": 0
             }
-          },
-          "hover": {
-            "description": "Use as the hover state border width for actions like secondary and tertiary buttons",
-            "type": "number",
-            "value": "{global.border.width.200}"
-          },
-          "clicked": {
-            "description": "Use as the clicked state border width for actions like secondary and tertiary buttons",
-            "type": "number",
-            "value": "{global.border.width.200}"
           }
         },
         "control": {
@@ -297,6 +297,16 @@
             "type": "number",
             "value": "{global.spacer.lg}"
           },
+          "compact": {
+            "description": "Use to set the horizontal padding inside a compact action, like compact buttons.",
+            "type": "number",
+            "value": "{global.spacer.md}"
+          },
+          "spacious": {
+            "description": "Use to set the horizontal padding inside a large/display action, like CTAs.",
+            "type": "number",
+            "value": "{global.spacer.xl}"
+          },
           "plain": {
             "default": {
               "description": "Use to set the horizontal padding inside a plain action, like plain buttons.",
@@ -308,16 +318,6 @@
               "type": "number",
               "value": "{global.spacer.xs}"
             }
-          },
-          "compact": {
-            "description": "Use to set the horizontal padding inside a compact action, like compact buttons.",
-            "type": "number",
-            "value": "{global.spacer.md}"
-          },
-          "spacious": {
-            "description": "Use to set the horizontal padding inside a large/display action, like CTAs.",
-            "type": "number",
-            "value": "{global.spacer.xl}"
           }
         }
       },
@@ -438,6 +438,46 @@
           "value": "{global.icon.size.500}"
         },
         "font": {
+          "xs": {
+            "description": "Use for icons that are placed inline with font–size–xs text",
+            "type": "number",
+            "value": "{global.font.size.xs}"
+          },
+          "sm": {
+            "description": "Use for icons that are placed inline with font–size–sm text",
+            "type": "number",
+            "value": "{global.font.size.sm}"
+          },
+          "md": {
+            "description": "Use for icons that are placed inline with font–size–md text",
+            "type": "number",
+            "value": "{global.font.size.md}"
+          },
+          "lg": {
+            "description": "Use for icons that are placed inline with font–size–lg text",
+            "type": "number",
+            "value": "{global.font.size.lg}"
+          },
+          "xl": {
+            "description": "Use for icons that are placed inline with font–size–xl text",
+            "type": "number",
+            "value": "{global.font.size.xl}"
+          },
+          "2xl": {
+            "description": "Use for icons that are placed inline with font–size–2xl text",
+            "type": "number",
+            "value": "{global.font.size.2xl}"
+          },
+          "3xl": {
+            "description": "Use for icons that are placed inline with font–size–3xl text",
+            "type": "number",
+            "value": "{global.font.size.3xl}"
+          },
+          "4xl": {
+            "description": "Use for icons that are placed inline with font–size–3xl text",
+            "type": "number",
+            "value": "{global.font.size.4xl}"
+          },
           "heading": {
             "h1": {
               "description": "Use for icons that are placed inline with first level headings",
@@ -486,63 +526,11 @@
               "type": "number",
               "value": "{global.font.size.body.lg}"
             }
-          },
-          "xs": {
-            "description": "Use for icons that are placed inline with font–size–xs text",
-            "type": "number",
-            "value": "{global.font.size.xs}"
-          },
-          "sm": {
-            "description": "Use for icons that are placed inline with font–size–sm text",
-            "type": "number",
-            "value": "{global.font.size.sm}"
-          },
-          "md": {
-            "description": "Use for icons that are placed inline with font–size–md text",
-            "type": "number",
-            "value": "{global.font.size.md}"
-          },
-          "lg": {
-            "description": "Use for icons that are placed inline with font–size–lg text",
-            "type": "number",
-            "value": "{global.font.size.lg}"
-          },
-          "xl": {
-            "description": "Use for icons that are placed inline with font–size–xl text",
-            "type": "number",
-            "value": "{global.font.size.xl}"
-          },
-          "2xl": {
-            "description": "Use for icons that are placed inline with font–size–2xl text",
-            "type": "number",
-            "value": "{global.font.size.2xl}"
-          },
-          "3xl": {
-            "description": "Use for icons that are placed inline with font–size–3xl text",
-            "type": "number",
-            "value": "{global.font.size.3xl}"
-          },
-          "4xl": {
-            "description": "Use for icons that are placed inline with font–size–3xl text",
-            "type": "number",
-            "value": "{global.font.size.4xl}"
           }
         }
       }
     },
     "font": {
-      "line-height": {
-        "body": {
-          "description": "Use to define the line height for body text",
-          "type": "number",
-          "value": "{global.font.line-height.200}"
-        },
-        "heading": {
-          "description": "Use to define the line height for heading text",
-          "type": "number",
-          "value": "{global.font.line-height.100}"
-        }
-      },
       "weight": {
         "body": {
           "default": {
@@ -569,6 +557,18 @@
           }
         }
       },
+      "line-height": {
+        "body": {
+          "description": "Use to define the line height for body text",
+          "type": "number",
+          "value": "{global.font.line-height.200}"
+        },
+        "heading": {
+          "description": "Use to define the line height for heading text",
+          "type": "number",
+          "value": "{global.font.line-height.100}"
+        }
+      },
       "family": {
         "body": {
           "description": "Use to define the font family for body text",
@@ -587,6 +587,45 @@
         }
       },
       "size": {
+        "xs": {
+          "type": "number",
+          "value": "{global.font.size.100}"
+        },
+        "sm": {
+          "description": "Use as the font size for small text that isn’t a heading or in a body section.",
+          "type": "number",
+          "value": "{global.font.size.200}"
+        },
+        "md": {
+          "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
+          "type": "number",
+          "value": "{global.font.size.300}"
+        },
+        "lg": {
+          "description": "Use as the font size for large text that isn’t a heading or in a body section.",
+          "type": "number",
+          "value": "{global.font.size.400}"
+        },
+        "xl": {
+          "description": "Use as the font size for extra large text that isn’t a heading or in a body section.",
+          "type": "number",
+          "value": "{global.font.size.500}"
+        },
+        "2xl": {
+          "description": "Use as the font size for double extra large text that isn’t a heading or in a body section.",
+          "type": "number",
+          "value": "{global.font.size.600}"
+        },
+        "3xl": {
+          "description": "Use as the font size for triple extra large text that isn’t a heading or in a body section.",
+          "type": "number",
+          "value": "{global.font.size.700}"
+        },
+        "4xl": {
+          "description": "Use as the font size for quadruple extra large text that isn’t a heading or in a body section.",
+          "type": "number",
+          "value": "{global.font.size.800}"
+        },
         "body": {
           "sm": {
             "description": "Use for a smaller font size in body sections.",
@@ -635,45 +674,6 @@
             "type": "number",
             "value": "{global.font.size.md}"
           }
-        },
-        "xs": {
-          "type": "number",
-          "value": "{global.font.size.100}"
-        },
-        "sm": {
-          "description": "Use as the font size for small text that isn’t a heading or in a body section.",
-          "type": "number",
-          "value": "{global.font.size.200}"
-        },
-        "md": {
-          "description": "Use as the font size for medium text that isn’t a heading or in a body section.",
-          "type": "number",
-          "value": "{global.font.size.300}"
-        },
-        "lg": {
-          "description": "Use as the font size for large text that isn’t a heading or in a body section.",
-          "type": "number",
-          "value": "{global.font.size.400}"
-        },
-        "xl": {
-          "description": "Use as the font size for extra large text that isn’t a heading or in a body section.",
-          "type": "number",
-          "value": "{global.font.size.500}"
-        },
-        "2xl": {
-          "description": "Use as the font size for double extra large text that isn’t a heading or in a body section.",
-          "type": "number",
-          "value": "{global.font.size.600}"
-        },
-        "3xl": {
-          "description": "Use as the font size for triple extra large text that isn’t a heading or in a body section.",
-          "type": "number",
-          "value": "{global.font.size.700}"
-        },
-        "4xl": {
-          "description": "Use as the font size for quadruple extra large text that isn’t a heading or in a body section.",
-          "type": "number",
-          "value": "{global.font.size.800}"
         }
       }
     },
@@ -999,7 +999,7 @@
         },
         "hover": {
           "type": "number",
-          "value": "{global.border.width.strong}"
+          "value": "{global.border.width.regular}"
         }
       },
       "offset": {
