@@ -1,7 +1,7 @@
 {
   "source": [
     "tokens/default/light/*.json",
-    "tokens/redhat/light/redhat*.json"
+    "tokens/felt/light/felt*.json"
   ],
   "platforms": {
     "json/default": {
@@ -10,7 +10,7 @@
       "prefix": "pf-t",
       "files": [
         {
-          "destination": "token-layers-redhat.json",
+          "destination": "token-layers-felt.json",
           "format": "json/flat-categories",
           "options": {
             "outputReferences": false
