@@ -1,7 +1,7 @@
 {
   "source": [
     "tokens/default/highcontrast/*.json",
-    "tokens/redhat/highcontrast/redhat*.json"
+    "tokens/felt/highcontrast/felt*.json"
   ],
   "basePxFontSize": 16,
   "platforms": {
@@ -10,7 +10,7 @@
       "buildPath": "build/css/",
       "prefix": "pf-t",
       "files": [{
-        "destination": "tokens-redhat-highcontrast.scss",
+        "destination": "tokens-felt-highcontrast.scss",
         "format": "customFormat",
         "options": {
           "outputReferences": true

@@ -1,7 +1,7 @@
 {
   "source": [
     "tokens/default/highcontrast/*.json",
-    "tokens/redhat/highcontrast/redhat*.json"
+    "tokens/felt/highcontrast/felt*.json"
   ],
   "platforms": {
     "json/default": {
@@ -10,7 +10,7 @@
       "prefix": "pf-t",
       "files": [
         {
-          "destination": "token-layers-redhat-highcontrast.json",
+          "destination": "token-layers-felt-highcontrast.json",
           "format": "json/flat-categories",
           "options": {
             "outputReferences": false
