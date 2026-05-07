@@ -1,5 +1,5 @@
 {
-  "source": ["tokens/default/light/*.json"],
+  "source": ["tokens/default/light/palette.color.json", "tokens/default/light/charts.json"],
   "platforms": {
     "css": {
       "transformGroup": "patternfly/css",

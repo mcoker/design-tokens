@@ -1,5 +1,5 @@
 {
-  "source": ["tokens/highcontrast-dark/*.json"],
+  "source": ["tokens/default/highcontrast-dark/*.json"],
   "platforms": {
     "css": {
       "transformGroup": "patternfly/css",

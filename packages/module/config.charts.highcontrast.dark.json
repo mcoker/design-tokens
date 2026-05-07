@@ -1,20 +1,19 @@
 {
-  "source": ["tokens/default/highcontrast/*.json"],
-  "basePxFontSize": 16,
+  "source": ["tokens/default/highcontrast-dark/palette.color.json", "tokens/default/highcontrast-dark/charts.highcontrast.dark.json"],
   "platforms": {
     "css": {
       "transformGroup": "patternfly/css",
       "buildPath": "build/css/",
       "prefix": "pf-t",
       "files": [{
-        "destination": "tokens-highcontrast.scss",
+        "destination": "tokens-charts-highcontrast-dark.scss",
         "format": "customFormat",
         "options": {
           "outputReferences": true
         },
         "filter": {
           "attributes": {
-            "category": "global"
+            "category": "chart"
           }
         }
       }

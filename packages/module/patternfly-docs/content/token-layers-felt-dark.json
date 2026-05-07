@@ -38276,7 +38276,7 @@
       "default": {
         "type": "color",
         "value": "#0066cc",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -38324,7 +38324,7 @@
       "default": {
         "type": "color",
         "value": "#4394e5",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -38372,7 +38372,7 @@
       "default": {
         "type": "color",
         "value": "#92c5f9",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -38420,7 +38420,7 @@
       "default": {
         "type": "color",
         "value": "#b9dafc",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -38468,7 +38468,7 @@
       "default": {
         "type": "color",
         "value": "#e0f0ff",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -38516,7 +38516,7 @@
       "default": {
         "type": "color",
         "value": "#63993d",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -38564,7 +38564,7 @@
       "default": {
         "type": "color",
         "value": "#87bb62",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -38612,7 +38612,7 @@
       "default": {
         "type": "color",
         "value": "#afdc8f",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -38660,7 +38660,7 @@
       "default": {
         "type": "color",
         "value": "#d1f1bb",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -38708,7 +38708,7 @@
       "default": {
         "type": "color",
         "value": "#e9f7df",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -38756,7 +38756,7 @@
       "default": {
         "type": "color",
         "value": "#37a3a3",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -38804,7 +38804,7 @@
       "default": {
         "type": "color",
         "value": "#63bdbd",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -38852,7 +38852,7 @@
       "default": {
         "type": "color",
         "value": "#9ad8d8",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -38900,7 +38900,7 @@
       "default": {
         "type": "color",
         "value": "#b9e5e5",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -38948,7 +38948,7 @@
       "default": {
         "type": "color",
         "value": "#daf2f2",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -38995,12 +38995,12 @@
     "pf-t--chart--color--purple--100": {
       "default": {
         "type": "color",
-        "value": "#5e40be",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "value": "#3d2785",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
-          "value": "{color.purple.50}"
+          "value": "{color.purple.60}"
         },
         "name": "pf-t--chart--color--purple--100",
         "attributes": {
@@ -39014,6 +39014,54 @@
           "color",
           "purple",
           "100"
+        ],
+        "references": [
+          {
+            "type": "color",
+            "value": "#3d2785",
+            "filePath": "tokens/default/dark/palette.color.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "#3d2785"
+            },
+            "name": "pf-t--color--purple--60",
+            "attributes": {
+              "category": "color",
+              "type": "purple",
+              "item": "60"
+            },
+            "path": [
+              "color",
+              "purple",
+              "60"
+            ]
+          }
+        ]
+      }
+    },
+    "pf-t--chart--color--purple--200": {
+      "default": {
+        "type": "color",
+        "value": "#5e40be",
+        "filePath": "tokens/default/dark/charts.dark.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "{color.purple.50}"
+        },
+        "name": "pf-t--chart--color--purple--200",
+        "attributes": {
+          "category": "chart",
+          "type": "color",
+          "item": "purple",
+          "subitem": "200"
+        },
+        "path": [
+          "chart",
+          "color",
+          "purple",
+          "200"
         ],
         "references": [
           {
@@ -39040,28 +39088,28 @@
         ]
       }
     },
-    "pf-t--chart--color--purple--200": {
+    "pf-t--chart--color--purple--300": {
       "default": {
         "type": "color",
         "value": "#876fd4",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
           "value": "{color.purple.40}"
         },
-        "name": "pf-t--chart--color--purple--200",
+        "name": "pf-t--chart--color--purple--300",
         "attributes": {
           "category": "chart",
           "type": "color",
           "item": "purple",
-          "subitem": "200"
+          "subitem": "300"
         },
         "path": [
           "chart",
           "color",
           "purple",
-          "200"
+          "300"
         ],
         "references": [
           {
@@ -39088,28 +39136,28 @@
         ]
       }
     },
-    "pf-t--chart--color--purple--300": {
+    "pf-t--chart--color--purple--400": {
       "default": {
         "type": "color",
         "value": "#b6a6e9",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
           "value": "{color.purple.30}"
         },
-        "name": "pf-t--chart--color--purple--300",
+        "name": "pf-t--chart--color--purple--400",
         "attributes": {
           "category": "chart",
           "type": "color",
           "item": "purple",
-          "subitem": "300"
+          "subitem": "400"
         },
         "path": [
           "chart",
           "color",
           "purple",
-          "300"
+          "400"
         ],
         "references": [
           {
@@ -39136,28 +39184,28 @@
         ]
       }
     },
-    "pf-t--chart--color--purple--400": {
+    "pf-t--chart--color--purple--500": {
       "default": {
         "type": "color",
         "value": "#d0c5f4",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
           "value": "{color.purple.20}"
         },
-        "name": "pf-t--chart--color--purple--400",
+        "name": "pf-t--chart--color--purple--500",
         "attributes": {
           "category": "chart",
           "type": "color",
           "item": "purple",
-          "subitem": "400"
+          "subitem": "500"
         },
         "path": [
           "chart",
           "color",
           "purple",
-          "400"
+          "500"
         ],
         "references": [
           {
@@ -39184,59 +39232,11 @@
         ]
       }
     },
-    "pf-t--chart--color--purple--500": {
-      "default": {
-        "type": "color",
-        "value": "#ece6ff",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
-        "isSource": true,
-        "original": {
-          "type": "color",
-          "value": "{color.purple.10}"
-        },
-        "name": "pf-t--chart--color--purple--500",
-        "attributes": {
-          "category": "chart",
-          "type": "color",
-          "item": "purple",
-          "subitem": "500"
-        },
-        "path": [
-          "chart",
-          "color",
-          "purple",
-          "500"
-        ],
-        "references": [
-          {
-            "type": "color",
-            "value": "#ece6ff",
-            "filePath": "tokens/default/dark/palette.color.json",
-            "isSource": true,
-            "original": {
-              "type": "color",
-              "value": "#ece6ff"
-            },
-            "name": "pf-t--color--purple--10",
-            "attributes": {
-              "category": "color",
-              "type": "purple",
-              "item": "10"
-            },
-            "path": [
-              "color",
-              "purple",
-              "10"
-            ]
-          }
-        ]
-      }
-    },
     "pf-t--chart--color--yellow--100": {
       "default": {
         "type": "color",
         "value": "#b98412",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -39284,7 +39284,7 @@
       "default": {
         "type": "color",
         "value": "#dca614",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -39332,7 +39332,7 @@
       "default": {
         "type": "color",
         "value": "#ffcc17",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -39380,7 +39380,7 @@
       "default": {
         "type": "color",
         "value": "#ffe072",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -39428,7 +39428,7 @@
       "default": {
         "type": "color",
         "value": "#fff4cc",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -39476,7 +39476,7 @@
       "default": {
         "type": "color",
         "value": "#ca6c0f",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -39524,7 +39524,7 @@
       "default": {
         "type": "color",
         "value": "#f5921b",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -39572,7 +39572,7 @@
       "default": {
         "type": "color",
         "value": "#f8ae54",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -39620,7 +39620,7 @@
       "default": {
         "type": "color",
         "value": "#fccb8f",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -39668,7 +39668,7 @@
       "default": {
         "type": "color",
         "value": "#ffe8cc",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -39716,7 +39716,7 @@
       "default": {
         "type": "color",
         "value": "#f0561d",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -39764,7 +39764,7 @@
       "default": {
         "type": "color",
         "value": "#f4784a",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -39812,7 +39812,7 @@
       "default": {
         "type": "color",
         "value": "#f89b78",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -39860,7 +39860,7 @@
       "default": {
         "type": "color",
         "value": "#fbbea8",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -39908,7 +39908,7 @@
       "default": {
         "type": "color",
         "value": "#ffe3d9",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -39956,7 +39956,7 @@
       "default": {
         "type": "color",
         "value": "#707070",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -40004,7 +40004,7 @@
       "default": {
         "type": "color",
         "value": "#a3a3a3",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -40052,7 +40052,7 @@
       "default": {
         "type": "color",
         "value": "#c7c7c7",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -40100,7 +40100,7 @@
       "default": {
         "type": "color",
         "value": "#e0e0e0",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -40148,7 +40148,7 @@
       "default": {
         "type": "color",
         "value": "#f2f2f2",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -40196,7 +40196,7 @@
       "default": {
         "type": "number",
         "value": 1,
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "number",
@@ -40221,7 +40221,7 @@
       "default": {
         "type": "number",
         "value": 2,
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "number",
@@ -40246,7 +40246,7 @@
       "default": {
         "type": "number",
         "value": 8,
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "number",
@@ -40271,7 +40271,7 @@
       "default": {
         "type": "number",
         "value": 1,
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "number",
@@ -40298,7 +40298,7 @@
       "default": {
         "type": "number",
         "value": 2,
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "number",
@@ -40325,7 +40325,7 @@
       "default": {
         "type": "color",
         "value": "#4d4d4d",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -40375,7 +40375,7 @@
       "default": {
         "type": "color",
         "value": "#707070",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -40425,7 +40425,7 @@
       "default": {
         "type": "color",
         "value": "#a3a3a3",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -40475,7 +40475,7 @@
       "default": {
         "type": "color",
         "value": "#c7c7c7",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -40525,7 +40525,7 @@
       "default": {
         "type": "color",
         "value": "#e0e0e0",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -40575,7 +40575,7 @@
       "default": {
         "type": "color",
         "value": "#f2f2f2",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -40625,7 +40625,7 @@
       "default": {
         "type": "color",
         "value": "#ffffff",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -40673,7 +40673,7 @@
       "default": {
         "type": "color",
         "value": "#ffffff",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -40721,7 +40721,7 @@
       "default": {
         "type": "number",
         "value": "20%",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "number",
@@ -40748,7 +40748,7 @@
       "default": {
         "type": "color",
         "value": "#f8ae54",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -40798,7 +40798,7 @@
       "default": {
         "type": "color",
         "value": "#ffcc17",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -40848,7 +40848,7 @@
       "default": {
         "type": "color",
         "value": "#92c5f9",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -40897,12 +40897,12 @@
     "pf-t--chart--global--danger--color--100": {
       "default": {
         "type": "color",
-        "value": "#f4784a",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "value": "#f0561d",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
-          "value": "{color.red-orange.40}"
+          "value": "{color.red-orange.50}"
         },
         "name": "pf-t--chart--global--danger--color--100",
         "attributes": {
@@ -40922,23 +40922,23 @@
         "references": [
           {
             "type": "color",
-            "value": "#f4784a",
+            "value": "#f0561d",
             "filePath": "tokens/default/dark/palette.color.json",
             "isSource": true,
             "original": {
               "type": "color",
-              "value": "#f4784a"
+              "value": "#f0561d"
             },
-            "name": "pf-t--color--red-orange--40",
+            "name": "pf-t--color--red-orange--50",
             "attributes": {
               "category": "color",
               "type": "red-orange",
-              "item": "40"
+              "item": "50"
             },
             "path": [
               "color",
               "red-orange",
-              "40"
+              "50"
             ]
           }
         ]
@@ -40948,7 +40948,7 @@
       "default": {
         "type": "string",
         "value": "normal",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "string",
@@ -40971,7 +40971,7 @@
       "default": {
         "type": "number",
         "value": 12,
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "number",
@@ -40996,7 +40996,7 @@
       "default": {
         "type": "number",
         "value": 14,
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "number",
@@ -41021,7 +41021,7 @@
       "default": {
         "type": "number",
         "value": 18,
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "number",
@@ -41046,7 +41046,7 @@
       "default": {
         "type": "number",
         "value": 22,
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "number",
@@ -41071,7 +41071,7 @@
       "default": {
         "type": "number",
         "value": 10,
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "number",
@@ -41096,7 +41096,7 @@
       "default": {
         "type": "number",
         "value": 8,
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "number",
@@ -41122,18 +41122,18 @@
         "width": {
           "type": "number",
           "value": 0,
-          "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+          "filePath": "tokens/default/dark/charts.dark.json",
           "isSource": true
         },
         "type": "string",
         "value": "transparent",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "width": {
             "type": "number",
             "value": 0,
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true
           },
           "type": "string",
@@ -41158,7 +41158,7 @@
       "default": {
         "type": "string",
         "value": "middle",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "string",
@@ -41183,7 +41183,7 @@
       "default": {
         "type": "color",
         "value": "#ffffff",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -41229,7 +41229,7 @@
       "default": {
         "type": "string",
         "value": "round",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "string",
@@ -41252,7 +41252,7 @@
       "default": {
         "type": "number",
         "value": 50,
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "number",
@@ -41277,7 +41277,7 @@
       "default": {
         "type": "number",
         "value": 300,
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "number",
@@ -41302,7 +41302,7 @@
       "default": {
         "type": "number",
         "value": 450,
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "number",
@@ -41327,7 +41327,7 @@
       "default": {
         "type": "string",
         "value": "round",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "string",
@@ -41350,7 +41350,7 @@
       "default": {
         "type": "color",
         "value": "#92c5f9",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -41376,7 +41376,7 @@
           {
             "type": "color",
             "value": "#92c5f9",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -41426,7 +41426,7 @@
       "default": {
         "type": "color",
         "value": "#0066cc",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -41452,7 +41452,7 @@
           {
             "type": "color",
             "value": "#0066cc",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -41502,7 +41502,7 @@
       "default": {
         "type": "color",
         "value": "#e0f0ff",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -41528,7 +41528,7 @@
           {
             "type": "color",
             "value": "#e0f0ff",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -41578,7 +41578,7 @@
       "default": {
         "type": "color",
         "value": "#4394e5",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -41604,7 +41604,7 @@
           {
             "type": "color",
             "value": "#4394e5",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -41654,7 +41654,7 @@
       "default": {
         "type": "color",
         "value": "#b9dafc",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -41680,7 +41680,7 @@
           {
             "type": "color",
             "value": "#b9dafc",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -41730,7 +41730,7 @@
       "default": {
         "type": "color",
         "value": "#9ad8d8",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -41756,7 +41756,7 @@
           {
             "type": "color",
             "value": "#9ad8d8",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -41806,7 +41806,7 @@
       "default": {
         "type": "color",
         "value": "#37a3a3",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -41832,7 +41832,7 @@
           {
             "type": "color",
             "value": "#37a3a3",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -41882,7 +41882,7 @@
       "default": {
         "type": "color",
         "value": "#daf2f2",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -41908,7 +41908,7 @@
           {
             "type": "color",
             "value": "#daf2f2",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -41958,7 +41958,7 @@
       "default": {
         "type": "color",
         "value": "#63bdbd",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -41984,7 +41984,7 @@
           {
             "type": "color",
             "value": "#63bdbd",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -42034,7 +42034,7 @@
       "default": {
         "type": "color",
         "value": "#b9e5e5",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -42060,7 +42060,7 @@
           {
             "type": "color",
             "value": "#b9e5e5",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -42110,7 +42110,7 @@
       "default": {
         "type": "color",
         "value": "#ffcc17",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -42136,7 +42136,7 @@
           {
             "type": "color",
             "value": "#ffcc17",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -42186,7 +42186,7 @@
       "default": {
         "type": "color",
         "value": "#b98412",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -42212,7 +42212,7 @@
           {
             "type": "color",
             "value": "#b98412",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -42262,7 +42262,7 @@
       "default": {
         "type": "color",
         "value": "#fff4cc",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -42288,7 +42288,7 @@
           {
             "type": "color",
             "value": "#fff4cc",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -42338,7 +42338,7 @@
       "default": {
         "type": "color",
         "value": "#dca614",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -42364,7 +42364,7 @@
           {
             "type": "color",
             "value": "#dca614",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -42414,7 +42414,7 @@
       "default": {
         "type": "color",
         "value": "#ffe072",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -42440,7 +42440,7 @@
           {
             "type": "color",
             "value": "#ffe072",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -42490,7 +42490,7 @@
       "default": {
         "type": "color",
         "value": "#c7c7c7",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -42516,7 +42516,7 @@
           {
             "type": "color",
             "value": "#c7c7c7",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -42566,7 +42566,7 @@
       "default": {
         "type": "color",
         "value": "#707070",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -42592,7 +42592,7 @@
           {
             "type": "color",
             "value": "#707070",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -42642,7 +42642,7 @@
       "default": {
         "type": "color",
         "value": "#f2f2f2",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -42668,7 +42668,7 @@
           {
             "type": "color",
             "value": "#f2f2f2",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -42718,7 +42718,7 @@
       "default": {
         "type": "color",
         "value": "#a3a3a3",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -42744,7 +42744,7 @@
           {
             "type": "color",
             "value": "#a3a3a3",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -42794,7 +42794,7 @@
       "default": {
         "type": "color",
         "value": "#e0e0e0",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -42820,7 +42820,7 @@
           {
             "type": "color",
             "value": "#e0e0e0",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -42870,7 +42870,7 @@
       "default": {
         "type": "color",
         "value": "#afdc8f",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -42896,7 +42896,7 @@
           {
             "type": "color",
             "value": "#afdc8f",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -42946,7 +42946,7 @@
       "default": {
         "type": "color",
         "value": "#63993d",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -42972,7 +42972,7 @@
           {
             "type": "color",
             "value": "#63993d",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -43022,7 +43022,7 @@
       "default": {
         "type": "color",
         "value": "#e9f7df",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -43048,7 +43048,7 @@
           {
             "type": "color",
             "value": "#e9f7df",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -43098,7 +43098,7 @@
       "default": {
         "type": "color",
         "value": "#87bb62",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -43124,7 +43124,7 @@
           {
             "type": "color",
             "value": "#87bb62",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -43174,7 +43174,7 @@
       "default": {
         "type": "color",
         "value": "#d1f1bb",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -43200,7 +43200,7 @@
           {
             "type": "color",
             "value": "#d1f1bb",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -43249,8 +43249,8 @@
     "pf-t--chart--theme--colorscales--purple--colorscale--100": {
       "default": {
         "type": "color",
-        "value": "#b6a6e9",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "value": "#876fd4",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -43275,12 +43275,12 @@
         "references": [
           {
             "type": "color",
-            "value": "#b6a6e9",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "value": "#876fd4",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
-              "value": "{color.purple.30}"
+              "value": "{color.purple.40}"
             },
             "name": "pf-t--chart--color--purple--300",
             "attributes": {
@@ -43294,234 +43294,6 @@
               "color",
               "purple",
               "300"
-            ],
-            "references": [
-              {
-                "type": "color",
-                "value": "#b6a6e9",
-                "filePath": "tokens/default/dark/palette.color.json",
-                "isSource": true,
-                "original": {
-                  "type": "color",
-                  "value": "#b6a6e9"
-                },
-                "name": "pf-t--color--purple--30",
-                "attributes": {
-                  "category": "color",
-                  "type": "purple",
-                  "item": "30"
-                },
-                "path": [
-                  "color",
-                  "purple",
-                  "30"
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "pf-t--chart--theme--colorscales--purple--colorscale--200": {
-      "default": {
-        "type": "color",
-        "value": "#5e40be",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
-        "isSource": true,
-        "original": {
-          "type": "color",
-          "value": "{chart.color.purple.100}"
-        },
-        "name": "pf-t--chart--theme--colorscales--purple--colorscale--200",
-        "attributes": {
-          "category": "chart",
-          "type": "theme",
-          "item": "colorscales",
-          "subitem": "purple",
-          "state": "colorscale"
-        },
-        "path": [
-          "chart",
-          "theme",
-          "colorscales",
-          "purple",
-          "colorscale",
-          "200"
-        ],
-        "references": [
-          {
-            "type": "color",
-            "value": "#5e40be",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
-            "isSource": true,
-            "original": {
-              "type": "color",
-              "value": "{color.purple.50}"
-            },
-            "name": "pf-t--chart--color--purple--100",
-            "attributes": {
-              "category": "chart",
-              "type": "color",
-              "item": "purple",
-              "subitem": "100"
-            },
-            "path": [
-              "chart",
-              "color",
-              "purple",
-              "100"
-            ],
-            "references": [
-              {
-                "type": "color",
-                "value": "#5e40be",
-                "filePath": "tokens/default/dark/palette.color.json",
-                "isSource": true,
-                "original": {
-                  "type": "color",
-                  "value": "#5e40be"
-                },
-                "name": "pf-t--color--purple--50",
-                "attributes": {
-                  "category": "color",
-                  "type": "purple",
-                  "item": "50"
-                },
-                "path": [
-                  "color",
-                  "purple",
-                  "50"
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "pf-t--chart--theme--colorscales--purple--colorscale--300": {
-      "default": {
-        "type": "color",
-        "value": "#ece6ff",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
-        "isSource": true,
-        "original": {
-          "type": "color",
-          "value": "{chart.color.purple.500}"
-        },
-        "name": "pf-t--chart--theme--colorscales--purple--colorscale--300",
-        "attributes": {
-          "category": "chart",
-          "type": "theme",
-          "item": "colorscales",
-          "subitem": "purple",
-          "state": "colorscale"
-        },
-        "path": [
-          "chart",
-          "theme",
-          "colorscales",
-          "purple",
-          "colorscale",
-          "300"
-        ],
-        "references": [
-          {
-            "type": "color",
-            "value": "#ece6ff",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
-            "isSource": true,
-            "original": {
-              "type": "color",
-              "value": "{color.purple.10}"
-            },
-            "name": "pf-t--chart--color--purple--500",
-            "attributes": {
-              "category": "chart",
-              "type": "color",
-              "item": "purple",
-              "subitem": "500"
-            },
-            "path": [
-              "chart",
-              "color",
-              "purple",
-              "500"
-            ],
-            "references": [
-              {
-                "type": "color",
-                "value": "#ece6ff",
-                "filePath": "tokens/default/dark/palette.color.json",
-                "isSource": true,
-                "original": {
-                  "type": "color",
-                  "value": "#ece6ff"
-                },
-                "name": "pf-t--color--purple--10",
-                "attributes": {
-                  "category": "color",
-                  "type": "purple",
-                  "item": "10"
-                },
-                "path": [
-                  "color",
-                  "purple",
-                  "10"
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "pf-t--chart--theme--colorscales--purple--colorscale--400": {
-      "default": {
-        "type": "color",
-        "value": "#876fd4",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
-        "isSource": true,
-        "original": {
-          "type": "color",
-          "value": "{chart.color.purple.200}"
-        },
-        "name": "pf-t--chart--theme--colorscales--purple--colorscale--400",
-        "attributes": {
-          "category": "chart",
-          "type": "theme",
-          "item": "colorscales",
-          "subitem": "purple",
-          "state": "colorscale"
-        },
-        "path": [
-          "chart",
-          "theme",
-          "colorscales",
-          "purple",
-          "colorscale",
-          "400"
-        ],
-        "references": [
-          {
-            "type": "color",
-            "value": "#876fd4",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
-            "isSource": true,
-            "original": {
-              "type": "color",
-              "value": "{color.purple.40}"
-            },
-            "name": "pf-t--chart--color--purple--200",
-            "attributes": {
-              "category": "chart",
-              "type": "color",
-              "item": "purple",
-              "subitem": "200"
-            },
-            "path": [
-              "chart",
-              "color",
-              "purple",
-              "200"
             ],
             "references": [
               {
@@ -43550,17 +43322,17 @@
         ]
       }
     },
-    "pf-t--chart--theme--colorscales--purple--colorscale--500": {
+    "pf-t--chart--theme--colorscales--purple--colorscale--200": {
       "default": {
         "type": "color",
-        "value": "#d0c5f4",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "value": "#3d2785",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
-          "value": "{chart.color.purple.400}"
+          "value": "{chart.color.purple.100}"
         },
-        "name": "pf-t--chart--theme--colorscales--purple--colorscale--500",
+        "name": "pf-t--chart--theme--colorscales--purple--colorscale--200",
         "attributes": {
           "category": "chart",
           "type": "theme",
@@ -43574,30 +43346,106 @@
           "colorscales",
           "purple",
           "colorscale",
-          "500"
+          "200"
         ],
         "references": [
           {
             "type": "color",
-            "value": "#d0c5f4",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "value": "#3d2785",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
-              "value": "{color.purple.20}"
+              "value": "{color.purple.60}"
             },
-            "name": "pf-t--chart--color--purple--400",
+            "name": "pf-t--chart--color--purple--100",
             "attributes": {
               "category": "chart",
               "type": "color",
               "item": "purple",
-              "subitem": "400"
+              "subitem": "100"
             },
             "path": [
               "chart",
               "color",
               "purple",
-              "400"
+              "100"
+            ],
+            "references": [
+              {
+                "type": "color",
+                "value": "#3d2785",
+                "filePath": "tokens/default/dark/palette.color.json",
+                "isSource": true,
+                "original": {
+                  "type": "color",
+                  "value": "#3d2785"
+                },
+                "name": "pf-t--color--purple--60",
+                "attributes": {
+                  "category": "color",
+                  "type": "purple",
+                  "item": "60"
+                },
+                "path": [
+                  "color",
+                  "purple",
+                  "60"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "pf-t--chart--theme--colorscales--purple--colorscale--300": {
+      "default": {
+        "type": "color",
+        "value": "#d0c5f4",
+        "filePath": "tokens/default/dark/charts.dark.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "{chart.color.purple.500}"
+        },
+        "name": "pf-t--chart--theme--colorscales--purple--colorscale--300",
+        "attributes": {
+          "category": "chart",
+          "type": "theme",
+          "item": "colorscales",
+          "subitem": "purple",
+          "state": "colorscale"
+        },
+        "path": [
+          "chart",
+          "theme",
+          "colorscales",
+          "purple",
+          "colorscale",
+          "300"
+        ],
+        "references": [
+          {
+            "type": "color",
+            "value": "#d0c5f4",
+            "filePath": "tokens/default/dark/charts.dark.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{color.purple.20}"
+            },
+            "name": "pf-t--chart--color--purple--500",
+            "attributes": {
+              "category": "chart",
+              "type": "color",
+              "item": "purple",
+              "subitem": "500"
+            },
+            "path": [
+              "chart",
+              "color",
+              "purple",
+              "500"
             ],
             "references": [
               {
@@ -43626,11 +43474,163 @@
         ]
       }
     },
+    "pf-t--chart--theme--colorscales--purple--colorscale--400": {
+      "default": {
+        "type": "color",
+        "value": "#5e40be",
+        "filePath": "tokens/default/dark/charts.dark.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "{chart.color.purple.200}"
+        },
+        "name": "pf-t--chart--theme--colorscales--purple--colorscale--400",
+        "attributes": {
+          "category": "chart",
+          "type": "theme",
+          "item": "colorscales",
+          "subitem": "purple",
+          "state": "colorscale"
+        },
+        "path": [
+          "chart",
+          "theme",
+          "colorscales",
+          "purple",
+          "colorscale",
+          "400"
+        ],
+        "references": [
+          {
+            "type": "color",
+            "value": "#5e40be",
+            "filePath": "tokens/default/dark/charts.dark.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{color.purple.50}"
+            },
+            "name": "pf-t--chart--color--purple--200",
+            "attributes": {
+              "category": "chart",
+              "type": "color",
+              "item": "purple",
+              "subitem": "200"
+            },
+            "path": [
+              "chart",
+              "color",
+              "purple",
+              "200"
+            ],
+            "references": [
+              {
+                "type": "color",
+                "value": "#5e40be",
+                "filePath": "tokens/default/dark/palette.color.json",
+                "isSource": true,
+                "original": {
+                  "type": "color",
+                  "value": "#5e40be"
+                },
+                "name": "pf-t--color--purple--50",
+                "attributes": {
+                  "category": "color",
+                  "type": "purple",
+                  "item": "50"
+                },
+                "path": [
+                  "color",
+                  "purple",
+                  "50"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "pf-t--chart--theme--colorscales--purple--colorscale--500": {
+      "default": {
+        "type": "color",
+        "value": "#b6a6e9",
+        "filePath": "tokens/default/dark/charts.dark.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "{chart.color.purple.400}"
+        },
+        "name": "pf-t--chart--theme--colorscales--purple--colorscale--500",
+        "attributes": {
+          "category": "chart",
+          "type": "theme",
+          "item": "colorscales",
+          "subitem": "purple",
+          "state": "colorscale"
+        },
+        "path": [
+          "chart",
+          "theme",
+          "colorscales",
+          "purple",
+          "colorscale",
+          "500"
+        ],
+        "references": [
+          {
+            "type": "color",
+            "value": "#b6a6e9",
+            "filePath": "tokens/default/dark/charts.dark.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "{color.purple.30}"
+            },
+            "name": "pf-t--chart--color--purple--400",
+            "attributes": {
+              "category": "chart",
+              "type": "color",
+              "item": "purple",
+              "subitem": "400"
+            },
+            "path": [
+              "chart",
+              "color",
+              "purple",
+              "400"
+            ],
+            "references": [
+              {
+                "type": "color",
+                "value": "#b6a6e9",
+                "filePath": "tokens/default/dark/palette.color.json",
+                "isSource": true,
+                "original": {
+                  "type": "color",
+                  "value": "#b6a6e9"
+                },
+                "name": "pf-t--color--purple--30",
+                "attributes": {
+                  "category": "color",
+                  "type": "purple",
+                  "item": "30"
+                },
+                "path": [
+                  "color",
+                  "purple",
+                  "30"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
     "pf-t--chart--theme--colorscales--orange--colorscale--100": {
       "default": {
         "type": "color",
         "value": "#f8ae54",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -43656,7 +43656,7 @@
           {
             "type": "color",
             "value": "#f8ae54",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -43706,7 +43706,7 @@
       "default": {
         "type": "color",
         "value": "#ca6c0f",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -43732,7 +43732,7 @@
           {
             "type": "color",
             "value": "#ca6c0f",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -43782,7 +43782,7 @@
       "default": {
         "type": "color",
         "value": "#ffe8cc",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -43808,7 +43808,7 @@
           {
             "type": "color",
             "value": "#ffe8cc",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -43858,7 +43858,7 @@
       "default": {
         "type": "color",
         "value": "#f5921b",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -43884,7 +43884,7 @@
           {
             "type": "color",
             "value": "#f5921b",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -43934,7 +43934,7 @@
       "default": {
         "type": "color",
         "value": "#fccb8f",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -43960,7 +43960,7 @@
           {
             "type": "color",
             "value": "#fccb8f",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -44010,7 +44010,7 @@
       "default": {
         "type": "color",
         "value": "#4394e5",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -44036,7 +44036,7 @@
           {
             "type": "color",
             "value": "#4394e5",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -44086,7 +44086,7 @@
       "default": {
         "type": "color",
         "value": "#afdc8f",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -44112,7 +44112,7 @@
           {
             "type": "color",
             "value": "#afdc8f",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -44162,7 +44162,7 @@
       "default": {
         "type": "color",
         "value": "#63bdbd",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -44188,7 +44188,7 @@
           {
             "type": "color",
             "value": "#63bdbd",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -44238,7 +44238,7 @@
       "default": {
         "type": "color",
         "value": "#ffcc17",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -44264,7 +44264,7 @@
           {
             "type": "color",
             "value": "#ffcc17",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -44314,7 +44314,7 @@
       "default": {
         "type": "color",
         "value": "#f5921b",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -44340,7 +44340,7 @@
           {
             "type": "color",
             "value": "#f5921b",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -44390,7 +44390,7 @@
       "default": {
         "type": "color",
         "value": "#92c5f9",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -44416,7 +44416,7 @@
           {
             "type": "color",
             "value": "#92c5f9",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -44466,7 +44466,7 @@
       "default": {
         "type": "color",
         "value": "#87bb62",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -44492,7 +44492,7 @@
           {
             "type": "color",
             "value": "#87bb62",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -44542,7 +44542,7 @@
       "default": {
         "type": "color",
         "value": "#9ad8d8",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -44568,7 +44568,7 @@
           {
             "type": "color",
             "value": "#9ad8d8",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -44618,7 +44618,7 @@
       "default": {
         "type": "color",
         "value": "#dca614",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -44644,7 +44644,7 @@
           {
             "type": "color",
             "value": "#dca614",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -44694,7 +44694,7 @@
       "default": {
         "type": "color",
         "value": "#f8ae54",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -44720,7 +44720,7 @@
           {
             "type": "color",
             "value": "#f8ae54",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -44770,7 +44770,7 @@
       "default": {
         "type": "color",
         "value": "#e0f0ff",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -44796,7 +44796,7 @@
           {
             "type": "color",
             "value": "#e0f0ff",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -44846,7 +44846,7 @@
       "default": {
         "type": "color",
         "value": "#63993d",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -44872,7 +44872,7 @@
           {
             "type": "color",
             "value": "#63993d",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -44922,7 +44922,7 @@
       "default": {
         "type": "color",
         "value": "#daf2f2",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -44948,7 +44948,7 @@
           {
             "type": "color",
             "value": "#daf2f2",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -44998,7 +44998,7 @@
       "default": {
         "type": "color",
         "value": "#b98412",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -45024,7 +45024,7 @@
           {
             "type": "color",
             "value": "#b98412",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -45074,7 +45074,7 @@
       "default": {
         "type": "color",
         "value": "#ffe8cc",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -45100,7 +45100,7 @@
           {
             "type": "color",
             "value": "#ffe8cc",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -45150,7 +45150,7 @@
       "default": {
         "type": "color",
         "value": "#0066cc",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -45176,7 +45176,7 @@
           {
             "type": "color",
             "value": "#0066cc",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -45226,7 +45226,7 @@
       "default": {
         "type": "color",
         "value": "#e9f7df",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -45252,7 +45252,7 @@
           {
             "type": "color",
             "value": "#e9f7df",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -45302,7 +45302,7 @@
       "default": {
         "type": "color",
         "value": "#37a3a3",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -45328,7 +45328,7 @@
           {
             "type": "color",
             "value": "#37a3a3",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -45378,7 +45378,7 @@
       "default": {
         "type": "color",
         "value": "#fff4cc",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -45404,7 +45404,7 @@
           {
             "type": "color",
             "value": "#fff4cc",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -45454,7 +45454,7 @@
       "default": {
         "type": "color",
         "value": "#ca6c0f",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -45480,7 +45480,7 @@
           {
             "type": "color",
             "value": "#ca6c0f",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -45530,7 +45530,7 @@
       "default": {
         "type": "color",
         "value": "#b9dafc",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -45556,7 +45556,7 @@
           {
             "type": "color",
             "value": "#b9dafc",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -45606,7 +45606,7 @@
       "default": {
         "type": "color",
         "value": "#d1f1bb",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -45632,7 +45632,7 @@
           {
             "type": "color",
             "value": "#d1f1bb",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -45682,7 +45682,7 @@
       "default": {
         "type": "color",
         "value": "#b9e5e5",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -45708,7 +45708,7 @@
           {
             "type": "color",
             "value": "#b9e5e5",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -45758,7 +45758,7 @@
       "default": {
         "type": "color",
         "value": "#ffe072",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -45784,7 +45784,7 @@
           {
             "type": "color",
             "value": "#ffe072",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -45834,7 +45834,7 @@
       "default": {
         "type": "color",
         "value": "#fccb8f",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -45860,7 +45860,7 @@
           {
             "type": "color",
             "value": "#fccb8f",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -45910,7 +45910,7 @@
       "default": {
         "type": "color",
         "value": "#4394e5",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -45936,7 +45936,7 @@
           {
             "type": "color",
             "value": "#4394e5",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -45986,7 +45986,7 @@
       "default": {
         "type": "color",
         "value": "#ffcc17",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -46012,7 +46012,7 @@
           {
             "type": "color",
             "value": "#ffcc17",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -46062,7 +46062,7 @@
       "default": {
         "type": "color",
         "value": "#87bb62",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -46088,7 +46088,7 @@
           {
             "type": "color",
             "value": "#87bb62",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -46137,8 +46137,8 @@
     "pf-t--chart--theme--colorscales--multi-colored-unordered--colorscale--400": {
       "default": {
         "type": "color",
-        "value": "#b6a6e9",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "value": "#876fd4",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -46163,12 +46163,12 @@
         "references": [
           {
             "type": "color",
-            "value": "#b6a6e9",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "value": "#876fd4",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
-              "value": "{color.purple.30}"
+              "value": "{color.purple.40}"
             },
             "name": "pf-t--chart--color--purple--300",
             "attributes": {
@@ -46186,23 +46186,23 @@
             "references": [
               {
                 "type": "color",
-                "value": "#b6a6e9",
+                "value": "#876fd4",
                 "filePath": "tokens/default/dark/palette.color.json",
                 "isSource": true,
                 "original": {
                   "type": "color",
-                  "value": "#b6a6e9"
+                  "value": "#876fd4"
                 },
-                "name": "pf-t--color--purple--30",
+                "name": "pf-t--color--purple--40",
                 "attributes": {
                   "category": "color",
                   "type": "purple",
-                  "item": "30"
+                  "item": "40"
                 },
                 "path": [
                   "color",
                   "purple",
-                  "30"
+                  "40"
                 ]
               }
             ]
@@ -46214,7 +46214,7 @@
       "default": {
         "type": "color",
         "value": "#f5921b",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -46240,7 +46240,7 @@
           {
             "type": "color",
             "value": "#f5921b",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -46290,7 +46290,7 @@
       "default": {
         "type": "color",
         "value": "#9ad8d8",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -46316,7 +46316,7 @@
           {
             "type": "color",
             "value": "#9ad8d8",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -46366,7 +46366,7 @@
       "default": {
         "type": "color",
         "value": "#a3a3a3",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -46392,7 +46392,7 @@
           {
             "type": "color",
             "value": "#a3a3a3",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -46442,7 +46442,7 @@
       "default": {
         "type": "color",
         "value": "#92c5f9",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -46468,7 +46468,7 @@
           {
             "type": "color",
             "value": "#92c5f9",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -46518,7 +46518,7 @@
       "default": {
         "type": "color",
         "value": "#dca614",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -46544,7 +46544,7 @@
           {
             "type": "color",
             "value": "#dca614",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -46594,7 +46594,7 @@
       "default": {
         "type": "color",
         "value": "#afdc8f",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -46620,7 +46620,7 @@
           {
             "type": "color",
             "value": "#afdc8f",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -46669,8 +46669,8 @@
     "pf-t--chart--theme--colorscales--multi-colored-unordered--colorscale--1100": {
       "default": {
         "type": "color",
-        "value": "#876fd4",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "value": "#5e40be",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -46695,12 +46695,12 @@
         "references": [
           {
             "type": "color",
-            "value": "#876fd4",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "value": "#5e40be",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
-              "value": "{color.purple.40}"
+              "value": "{color.purple.50}"
             },
             "name": "pf-t--chart--color--purple--200",
             "attributes": {
@@ -46718,23 +46718,23 @@
             "references": [
               {
                 "type": "color",
-                "value": "#876fd4",
+                "value": "#5e40be",
                 "filePath": "tokens/default/dark/palette.color.json",
                 "isSource": true,
                 "original": {
                   "type": "color",
-                  "value": "#876fd4"
+                  "value": "#5e40be"
                 },
-                "name": "pf-t--color--purple--40",
+                "name": "pf-t--color--purple--50",
                 "attributes": {
                   "category": "color",
                   "type": "purple",
-                  "item": "40"
+                  "item": "50"
                 },
                 "path": [
                   "color",
                   "purple",
-                  "40"
+                  "50"
                 ]
               }
             ]
@@ -46746,7 +46746,7 @@
       "default": {
         "type": "color",
         "value": "#f8ae54",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -46772,7 +46772,7 @@
           {
             "type": "color",
             "value": "#f8ae54",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -46822,7 +46822,7 @@
       "default": {
         "type": "color",
         "value": "#63bdbd",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -46848,7 +46848,7 @@
           {
             "type": "color",
             "value": "#63bdbd",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -46898,7 +46898,7 @@
       "default": {
         "type": "color",
         "value": "#c7c7c7",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -46924,7 +46924,7 @@
           {
             "type": "color",
             "value": "#c7c7c7",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -46974,7 +46974,7 @@
       "default": {
         "type": "color",
         "value": "#0066cc",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -47000,7 +47000,7 @@
           {
             "type": "color",
             "value": "#0066cc",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -47050,7 +47050,7 @@
       "default": {
         "type": "color",
         "value": "#fff4cc",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -47076,7 +47076,7 @@
           {
             "type": "color",
             "value": "#fff4cc",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -47126,7 +47126,7 @@
       "default": {
         "type": "color",
         "value": "#63993d",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -47152,7 +47152,7 @@
           {
             "type": "color",
             "value": "#63993d",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -47201,8 +47201,8 @@
     "pf-t--chart--theme--colorscales--multi-colored-unordered--colorscale--1800": {
       "default": {
         "type": "color",
-        "value": "#ece6ff",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "value": "#d0c5f4",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -47227,12 +47227,12 @@
         "references": [
           {
             "type": "color",
-            "value": "#ece6ff",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "value": "#d0c5f4",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
-              "value": "{color.purple.10}"
+              "value": "{color.purple.20}"
             },
             "name": "pf-t--chart--color--purple--500",
             "attributes": {
@@ -47250,23 +47250,23 @@
             "references": [
               {
                 "type": "color",
-                "value": "#ece6ff",
+                "value": "#d0c5f4",
                 "filePath": "tokens/default/dark/palette.color.json",
                 "isSource": true,
                 "original": {
                   "type": "color",
-                  "value": "#ece6ff"
+                  "value": "#d0c5f4"
                 },
-                "name": "pf-t--color--purple--10",
+                "name": "pf-t--color--purple--20",
                 "attributes": {
                   "category": "color",
                   "type": "purple",
-                  "item": "10"
+                  "item": "20"
                 },
                 "path": [
                   "color",
                   "purple",
-                  "10"
+                  "20"
                 ]
               }
             ]
@@ -47278,7 +47278,7 @@
       "default": {
         "type": "color",
         "value": "#ca6c0f",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -47304,7 +47304,7 @@
           {
             "type": "color",
             "value": "#ca6c0f",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -47354,7 +47354,7 @@
       "default": {
         "type": "color",
         "value": "#daf2f2",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -47380,7 +47380,7 @@
           {
             "type": "color",
             "value": "#daf2f2",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -47430,7 +47430,7 @@
       "default": {
         "type": "color",
         "value": "#707070",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -47456,7 +47456,7 @@
           {
             "type": "color",
             "value": "#707070",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -47506,7 +47506,7 @@
       "default": {
         "type": "color",
         "value": "#e0f0ff",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -47532,7 +47532,7 @@
           {
             "type": "color",
             "value": "#e0f0ff",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -47582,7 +47582,7 @@
       "default": {
         "type": "color",
         "value": "#b98412",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -47608,7 +47608,7 @@
           {
             "type": "color",
             "value": "#b98412",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -47658,7 +47658,7 @@
       "default": {
         "type": "color",
         "value": "#e9f7df",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -47684,7 +47684,7 @@
           {
             "type": "color",
             "value": "#e9f7df",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -47733,8 +47733,8 @@
     "pf-t--chart--theme--colorscales--multi-colored-unordered--colorscale--2500": {
       "default": {
         "type": "color",
-        "value": "#5e40be",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "value": "#3d2785",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -47759,12 +47759,12 @@
         "references": [
           {
             "type": "color",
-            "value": "#5e40be",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "value": "#3d2785",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
-              "value": "{color.purple.50}"
+              "value": "{color.purple.60}"
             },
             "name": "pf-t--chart--color--purple--100",
             "attributes": {
@@ -47782,23 +47782,23 @@
             "references": [
               {
                 "type": "color",
-                "value": "#5e40be",
+                "value": "#3d2785",
                 "filePath": "tokens/default/dark/palette.color.json",
                 "isSource": true,
                 "original": {
                   "type": "color",
-                  "value": "#5e40be"
+                  "value": "#3d2785"
                 },
-                "name": "pf-t--color--purple--50",
+                "name": "pf-t--color--purple--60",
                 "attributes": {
                   "category": "color",
                   "type": "purple",
-                  "item": "50"
+                  "item": "60"
                 },
                 "path": [
                   "color",
                   "purple",
-                  "50"
+                  "60"
                 ]
               }
             ]
@@ -47810,7 +47810,7 @@
       "default": {
         "type": "color",
         "value": "#ffe8cc",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -47836,7 +47836,7 @@
           {
             "type": "color",
             "value": "#ffe8cc",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -47886,7 +47886,7 @@
       "default": {
         "type": "color",
         "value": "#37a3a3",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -47912,7 +47912,7 @@
           {
             "type": "color",
             "value": "#37a3a3",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -47962,7 +47962,7 @@
       "default": {
         "type": "color",
         "value": "#f2f2f2",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -47988,7 +47988,7 @@
           {
             "type": "color",
             "value": "#f2f2f2",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -48038,7 +48038,7 @@
       "default": {
         "type": "color",
         "value": "#b9dafc",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -48064,7 +48064,7 @@
           {
             "type": "color",
             "value": "#b9dafc",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -48114,7 +48114,7 @@
       "default": {
         "type": "color",
         "value": "#ffe072",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -48140,7 +48140,7 @@
           {
             "type": "color",
             "value": "#ffe072",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -48190,7 +48190,7 @@
       "default": {
         "type": "color",
         "value": "#d1f1bb",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -48216,7 +48216,7 @@
           {
             "type": "color",
             "value": "#d1f1bb",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -48265,8 +48265,8 @@
     "pf-t--chart--theme--colorscales--multi-colored-unordered--colorscale--3200": {
       "default": {
         "type": "color",
-        "value": "#d0c5f4",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "value": "#b6a6e9",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -48291,12 +48291,12 @@
         "references": [
           {
             "type": "color",
-            "value": "#d0c5f4",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "value": "#b6a6e9",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
-              "value": "{color.purple.20}"
+              "value": "{color.purple.30}"
             },
             "name": "pf-t--chart--color--purple--400",
             "attributes": {
@@ -48314,23 +48314,23 @@
             "references": [
               {
                 "type": "color",
-                "value": "#d0c5f4",
+                "value": "#b6a6e9",
                 "filePath": "tokens/default/dark/palette.color.json",
                 "isSource": true,
                 "original": {
                   "type": "color",
-                  "value": "#d0c5f4"
+                  "value": "#b6a6e9"
                 },
-                "name": "pf-t--color--purple--20",
+                "name": "pf-t--color--purple--30",
                 "attributes": {
                   "category": "color",
                   "type": "purple",
-                  "item": "20"
+                  "item": "30"
                 },
                 "path": [
                   "color",
                   "purple",
-                  "20"
+                  "30"
                 ]
               }
             ]
@@ -48342,7 +48342,7 @@
       "default": {
         "type": "color",
         "value": "#fccb8f",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -48368,7 +48368,7 @@
           {
             "type": "color",
             "value": "#fccb8f",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -48418,7 +48418,7 @@
       "default": {
         "type": "color",
         "value": "#b9e5e5",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -48444,7 +48444,7 @@
           {
             "type": "color",
             "value": "#b9e5e5",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
@@ -48494,7 +48494,7 @@
       "default": {
         "type": "color",
         "value": "#e0e0e0",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "filePath": "tokens/default/dark/charts.dark.json",
         "isSource": true,
         "original": {
           "type": "color",
@@ -48520,7 +48520,7 @@
           {
             "type": "color",
             "value": "#e0e0e0",
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "filePath": "tokens/default/dark/charts.dark.json",
             "isSource": true,
             "original": {
               "type": "color",
