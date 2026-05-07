@@ -57661,7 +57661,7 @@
     "pf-t--chart--global--fill--opacity--area": {
       "default": {
         "type": "number",
-        "value": 30,
+        "value": "30%",
         "filePath": "tokens/default/light/charts.json",
         "isSource": true,
         "original": {

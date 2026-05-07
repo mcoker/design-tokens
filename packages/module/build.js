@@ -128,7 +128,7 @@ const build = (selector) => {
   StyleDictionary.registerTransform({
     name: 'patternfly/global/percentage',
     type: 'value',
-    matcher: (token) => token.attributes.item === 'opacity' && token.original.type === 'number',
+    matcher: (token) => token.path.includes('opacity') && token.original.type === 'number',
     transformer: (token) => `${token.value}%`
   });
   
