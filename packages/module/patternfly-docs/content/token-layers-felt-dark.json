@@ -41309,40 +41309,57 @@
         ]
       }
     },
-    "pf-t--chart--global--label--stroke": {
+    "pf-t--chart--global--label--stroke--color": {
       "default": {
-        "width": {
-          "type": "number",
-          "value": 0,
-          "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
-          "isSource": true
-        },
         "type": "string",
         "value": "transparent",
         "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
         "isSource": true,
         "original": {
-          "width": {
-            "type": "number",
-            "value": 0,
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
-            "isSource": true
-          },
           "type": "string",
           "value": "transparent"
         },
-        "name": "pf-t--chart--global--label--stroke",
+        "name": "pf-t--chart--global--label--stroke--color",
         "attributes": {
           "category": "chart",
           "type": "global",
           "item": "label",
-          "subitem": "stroke"
+          "subitem": "stroke",
+          "state": "color"
         },
         "path": [
           "chart",
           "global",
           "label",
-          "stroke"
+          "stroke",
+          "color"
+        ]
+      }
+    },
+    "pf-t--chart--global--label--stroke--width": {
+      "default": {
+        "type": "number",
+        "value": 0,
+        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "isSource": true,
+        "original": {
+          "type": "number",
+          "value": 0
+        },
+        "name": "pf-t--chart--global--label--stroke--width",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "label",
+          "subitem": "stroke",
+          "state": "width"
+        },
+        "path": [
+          "chart",
+          "global",
+          "label",
+          "stroke",
+          "width"
         ]
       }
     },

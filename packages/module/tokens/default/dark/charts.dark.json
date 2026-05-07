@@ -338,12 +338,14 @@
           "value": "{color.white}"
         },
         "stroke": {
+          "color": {
+            "type": "string",
+            "value": "transparent"
+          },
           "width": {
             "type": "number",
             "value": 0
-          },
-          "type": "string",
-          "value": "transparent"
+          }
         }
       }
     },
