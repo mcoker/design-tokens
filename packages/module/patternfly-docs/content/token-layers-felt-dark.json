@@ -40720,7 +40720,7 @@
     "pf-t--chart--global--fill--opacity--area": {
       "default": {
         "type": "number",
-        "value": 20,
+        "value": "20%",
         "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
         "isSource": true,
         "original": {

@@ -55474,7 +55474,7 @@
     "pf-t--chart--global--fill--opacity--area": {
       "default": {
         "type": "number",
-        "value": 10,
+        "value": "10%",
         "filePath": "tokens/default/highcontrast/charts.highcontrast.json",
         "isSource": true,
         "original": {
