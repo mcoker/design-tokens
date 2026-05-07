@@ -252,6 +252,12 @@
             "type": "color",
             "value": "{color.white}"
           }
+        },
+        "opacity": {
+          "area": {
+            "type": "number",
+            "value": 20
+          }
         }
       },
       "warning": {

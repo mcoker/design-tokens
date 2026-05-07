@@ -40786,6 +40786,33 @@
         ]
       }
     },
+    "pf-t--chart--global--fill--opacity--area": {
+      "default": {
+        "type": "number",
+        "value": 20,
+        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "isSource": true,
+        "original": {
+          "type": "number",
+          "value": 20
+        },
+        "name": "pf-t--chart--global--fill--opacity--area",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "fill",
+          "subitem": "opacity",
+          "state": "area"
+        },
+        "path": [
+          "chart",
+          "global",
+          "fill",
+          "opacity",
+          "area"
+        ]
+      }
+    },
     "pf-t--chart--global--warning--color--100": {
       "default": {
         "type": "color",
