@@ -180,18 +180,6 @@
       }
     },
     "global": {
-      "letter-spacing": {
-        "type": "string",
-        "value": "normal"
-      },
-      "stroke-line-cap": {
-        "type": "string",
-        "value": "round"
-      },
-      "stroke-line-join": {
-        "type": "string",
-        "value": "round"
-      },
       "BorderWidth": {
         "xs": {
           "type": "number",
@@ -252,6 +240,12 @@
             "type": "color",
             "value": "{color.white}"
           }
+        },
+        "opacity": {
+          "area": {
+            "type": "number",
+            "value": 10
+          }
         }
       },
       "warning": {
@@ -282,6 +276,10 @@
           }
         }
       },
+      "letter-spacing": {
+        "type": "string",
+        "value": "normal"
+      },
       "FontSize": {
         "xs": {
           "type": "number",
@@ -300,6 +298,36 @@
           "value": 22
         }
       },
+      "label": {
+        "padding": {
+          "type": "number",
+          "value": 10
+        },
+        "margin": {
+          "type": "number",
+          "value": 8
+        },
+        "stroke": {
+          "width": {
+            "type": "number",
+            "value": 0
+          },
+          "type": "string",
+          "value": "transparent"
+        },
+        "text-anchor": {
+          "type": "string",
+          "value": "middle"
+        },
+        "fill": {
+          "type": "color",
+          "value": "{color.gray.90}"
+        }
+      },
+      "stroke-line-cap": {
+        "type": "string",
+        "value": "round"
+      },
       "layout": {
         "padding": {
           "type": "number",
@@ -314,31 +342,9 @@
           "value": 450
         }
       },
-      "label": {
-        "padding": {
-          "type": "number",
-          "value": 10
-        },
-        "margin": {
-          "type": "number",
-          "value": 8
-        },
-        "text-anchor": {
-          "type": "string",
-          "value": "middle"
-        },
-        "fill": {
-          "type": "color",
-          "value": "{color.gray.90}"
-        },
-        "stroke": {
-          "width": {
-            "type": "number",
-            "value": 0
-          },
-          "type": "string",
-          "value": "transparent"
-        }
+      "stroke-line-join": {
+        "type": "string",
+        "value": "round"
       }
     },
     "theme": {

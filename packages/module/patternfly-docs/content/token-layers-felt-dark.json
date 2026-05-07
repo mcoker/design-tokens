@@ -40192,75 +40192,6 @@
         ]
       }
     },
-    "pf-t--chart--global--letter-spacing": {
-      "default": {
-        "type": "string",
-        "value": "normal",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
-        "isSource": true,
-        "original": {
-          "type": "string",
-          "value": "normal"
-        },
-        "name": "pf-t--chart--global--letter-spacing",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "letter-spacing"
-        },
-        "path": [
-          "chart",
-          "global",
-          "letter-spacing"
-        ]
-      }
-    },
-    "pf-t--chart--global--stroke-line-cap": {
-      "default": {
-        "type": "string",
-        "value": "round",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
-        "isSource": true,
-        "original": {
-          "type": "string",
-          "value": "round"
-        },
-        "name": "pf-t--chart--global--stroke-line-cap",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "stroke-line-cap"
-        },
-        "path": [
-          "chart",
-          "global",
-          "stroke-line-cap"
-        ]
-      }
-    },
-    "pf-t--chart--global--stroke-line-join": {
-      "default": {
-        "type": "string",
-        "value": "round",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
-        "isSource": true,
-        "original": {
-          "type": "string",
-          "value": "round"
-        },
-        "name": "pf-t--chart--global--stroke-line-join",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "stroke-line-join"
-        },
-        "path": [
-          "chart",
-          "global",
-          "stroke-line-join"
-        ]
-      }
-    },
     "pf-t--chart--global--BorderWidth--xs": {
       "default": {
         "type": "number",
@@ -40786,6 +40717,33 @@
         ]
       }
     },
+    "pf-t--chart--global--fill--opacity--area": {
+      "default": {
+        "type": "number",
+        "value": 20,
+        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "isSource": true,
+        "original": {
+          "type": "number",
+          "value": 20
+        },
+        "name": "pf-t--chart--global--fill--opacity--area",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "fill",
+          "subitem": "opacity",
+          "state": "area"
+        },
+        "path": [
+          "chart",
+          "global",
+          "fill",
+          "opacity",
+          "area"
+        ]
+      }
+    },
     "pf-t--chart--global--warning--color--100": {
       "default": {
         "type": "color",
@@ -40986,6 +40944,29 @@
         ]
       }
     },
+    "pf-t--chart--global--letter-spacing": {
+      "default": {
+        "type": "string",
+        "value": "normal",
+        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "isSource": true,
+        "original": {
+          "type": "string",
+          "value": "normal"
+        },
+        "name": "pf-t--chart--global--letter-spacing",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "letter-spacing"
+        },
+        "path": [
+          "chart",
+          "global",
+          "letter-spacing"
+        ]
+      }
+    },
     "pf-t--chart--global--FontSize--xs": {
       "default": {
         "type": "number",
@@ -41086,6 +41067,187 @@
         ]
       }
     },
+    "pf-t--chart--global--label--padding": {
+      "default": {
+        "type": "number",
+        "value": 10,
+        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "isSource": true,
+        "original": {
+          "type": "number",
+          "value": 10
+        },
+        "name": "pf-t--chart--global--label--padding",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "label",
+          "subitem": "padding"
+        },
+        "path": [
+          "chart",
+          "global",
+          "label",
+          "padding"
+        ]
+      }
+    },
+    "pf-t--chart--global--label--margin": {
+      "default": {
+        "type": "number",
+        "value": 8,
+        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "isSource": true,
+        "original": {
+          "type": "number",
+          "value": 8
+        },
+        "name": "pf-t--chart--global--label--margin",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "label",
+          "subitem": "margin"
+        },
+        "path": [
+          "chart",
+          "global",
+          "label",
+          "margin"
+        ]
+      }
+    },
+    "pf-t--chart--global--label--stroke": {
+      "default": {
+        "width": {
+          "type": "number",
+          "value": 0,
+          "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+          "isSource": true
+        },
+        "type": "string",
+        "value": "transparent",
+        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "isSource": true,
+        "original": {
+          "width": {
+            "type": "number",
+            "value": 0,
+            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+            "isSource": true
+          },
+          "type": "string",
+          "value": "transparent"
+        },
+        "name": "pf-t--chart--global--label--stroke",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "label",
+          "subitem": "stroke"
+        },
+        "path": [
+          "chart",
+          "global",
+          "label",
+          "stroke"
+        ]
+      }
+    },
+    "pf-t--chart--global--label--text-anchor": {
+      "default": {
+        "type": "string",
+        "value": "middle",
+        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "isSource": true,
+        "original": {
+          "type": "string",
+          "value": "middle"
+        },
+        "name": "pf-t--chart--global--label--text-anchor",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "label",
+          "subitem": "text-anchor"
+        },
+        "path": [
+          "chart",
+          "global",
+          "label",
+          "text-anchor"
+        ]
+      }
+    },
+    "pf-t--chart--global--label--fill": {
+      "default": {
+        "type": "color",
+        "value": "#ffffff",
+        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "{color.white}"
+        },
+        "name": "pf-t--chart--global--label--fill",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "label",
+          "subitem": "fill"
+        },
+        "path": [
+          "chart",
+          "global",
+          "label",
+          "fill"
+        ],
+        "references": [
+          {
+            "type": "color",
+            "value": "#ffffff",
+            "filePath": "tokens/default/dark/palette.color.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "#ffffff"
+            },
+            "name": "pf-t--color--white",
+            "attributes": {
+              "category": "color",
+              "type": "white"
+            },
+            "path": [
+              "color",
+              "white"
+            ]
+          }
+        ]
+      }
+    },
+    "pf-t--chart--global--stroke-line-cap": {
+      "default": {
+        "type": "string",
+        "value": "round",
+        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "isSource": true,
+        "original": {
+          "type": "string",
+          "value": "round"
+        },
+        "name": "pf-t--chart--global--stroke-line-cap",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "stroke-line-cap"
+        },
+        "path": [
+          "chart",
+          "global",
+          "stroke-line-cap"
+        ]
+      }
+    },
     "pf-t--chart--global--layout--padding": {
       "default": {
         "type": "number",
@@ -41161,161 +41323,26 @@
         ]
       }
     },
-    "pf-t--chart--global--label--padding": {
-      "default": {
-        "type": "number",
-        "value": 10,
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
-        "isSource": true,
-        "original": {
-          "type": "number",
-          "value": 10
-        },
-        "name": "pf-t--chart--global--label--padding",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "label",
-          "subitem": "padding"
-        },
-        "path": [
-          "chart",
-          "global",
-          "label",
-          "padding"
-        ]
-      }
-    },
-    "pf-t--chart--global--label--margin": {
-      "default": {
-        "type": "number",
-        "value": 8,
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
-        "isSource": true,
-        "original": {
-          "type": "number",
-          "value": 8
-        },
-        "name": "pf-t--chart--global--label--margin",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "label",
-          "subitem": "margin"
-        },
-        "path": [
-          "chart",
-          "global",
-          "label",
-          "margin"
-        ]
-      }
-    },
-    "pf-t--chart--global--label--text-anchor": {
+    "pf-t--chart--global--stroke-line-join": {
       "default": {
         "type": "string",
-        "value": "middle",
+        "value": "round",
         "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
         "isSource": true,
         "original": {
           "type": "string",
-          "value": "middle"
+          "value": "round"
         },
-        "name": "pf-t--chart--global--label--text-anchor",
+        "name": "pf-t--chart--global--stroke-line-join",
         "attributes": {
           "category": "chart",
           "type": "global",
-          "item": "label",
-          "subitem": "text-anchor"
+          "item": "stroke-line-join"
         },
         "path": [
           "chart",
           "global",
-          "label",
-          "text-anchor"
-        ]
-      }
-    },
-    "pf-t--chart--global--label--fill": {
-      "default": {
-        "type": "color",
-        "value": "#ffffff",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
-        "isSource": true,
-        "original": {
-          "type": "color",
-          "value": "{color.white}"
-        },
-        "name": "pf-t--chart--global--label--fill",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "label",
-          "subitem": "fill"
-        },
-        "path": [
-          "chart",
-          "global",
-          "label",
-          "fill"
-        ],
-        "references": [
-          {
-            "type": "color",
-            "value": "#ffffff",
-            "filePath": "tokens/default/dark/palette.color.json",
-            "isSource": true,
-            "original": {
-              "type": "color",
-              "value": "#ffffff"
-            },
-            "name": "pf-t--color--white",
-            "attributes": {
-              "category": "color",
-              "type": "white"
-            },
-            "path": [
-              "color",
-              "white"
-            ]
-          }
-        ]
-      }
-    },
-    "pf-t--chart--global--label--stroke": {
-      "default": {
-        "width": {
-          "type": "number",
-          "value": 0,
-          "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
-          "isSource": true
-        },
-        "type": "string",
-        "value": "transparent",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
-        "isSource": true,
-        "original": {
-          "width": {
-            "type": "number",
-            "value": 0,
-            "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
-            "isSource": true
-          },
-          "type": "string",
-          "value": "transparent"
-        },
-        "name": "pf-t--chart--global--label--stroke",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "label",
-          "subitem": "stroke"
-        },
-        "path": [
-          "chart",
-          "global",
-          "label",
-          "stroke"
+          "stroke-line-join"
         ]
       }
     },

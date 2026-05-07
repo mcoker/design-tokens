@@ -57062,75 +57062,6 @@
         ]
       }
     },
-    "pf-t--chart--global--letter-spacing": {
-      "default": {
-        "type": "string",
-        "value": "normal",
-        "filePath": "tokens/default/light/charts.json",
-        "isSource": true,
-        "original": {
-          "type": "string",
-          "value": "normal"
-        },
-        "name": "pf-t--chart--global--letter-spacing",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "letter-spacing"
-        },
-        "path": [
-          "chart",
-          "global",
-          "letter-spacing"
-        ]
-      }
-    },
-    "pf-t--chart--global--stroke-line-cap": {
-      "default": {
-        "type": "string",
-        "value": "round",
-        "filePath": "tokens/default/light/charts.json",
-        "isSource": true,
-        "original": {
-          "type": "string",
-          "value": "round"
-        },
-        "name": "pf-t--chart--global--stroke-line-cap",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "stroke-line-cap"
-        },
-        "path": [
-          "chart",
-          "global",
-          "stroke-line-cap"
-        ]
-      }
-    },
-    "pf-t--chart--global--stroke-line-join": {
-      "default": {
-        "type": "string",
-        "value": "round",
-        "filePath": "tokens/default/light/charts.json",
-        "isSource": true,
-        "original": {
-          "type": "string",
-          "value": "round"
-        },
-        "name": "pf-t--chart--global--stroke-line-join",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "stroke-line-join"
-        },
-        "path": [
-          "chart",
-          "global",
-          "stroke-line-join"
-        ]
-      }
-    },
     "pf-t--chart--global--BorderWidth--xs": {
       "default": {
         "type": "number",
@@ -57658,6 +57589,33 @@
         ]
       }
     },
+    "pf-t--chart--global--fill--opacity--area": {
+      "default": {
+        "type": "number",
+        "value": 30,
+        "filePath": "tokens/default/light/charts.json",
+        "isSource": true,
+        "original": {
+          "type": "number",
+          "value": 30
+        },
+        "name": "pf-t--chart--global--fill--opacity--area",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "fill",
+          "subitem": "opacity",
+          "state": "area"
+        },
+        "path": [
+          "chart",
+          "global",
+          "fill",
+          "opacity",
+          "area"
+        ]
+      }
+    },
     "pf-t--chart--global--warning--color--100": {
       "default": {
         "type": "color",
@@ -57858,6 +57816,29 @@
         ]
       }
     },
+    "pf-t--chart--global--letter-spacing": {
+      "default": {
+        "type": "string",
+        "value": "normal",
+        "filePath": "tokens/default/light/charts.json",
+        "isSource": true,
+        "original": {
+          "type": "string",
+          "value": "normal"
+        },
+        "name": "pf-t--chart--global--letter-spacing",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "letter-spacing"
+        },
+        "path": [
+          "chart",
+          "global",
+          "letter-spacing"
+        ]
+      }
+    },
     "pf-t--chart--global--FontSize--xs": {
       "default": {
         "type": "number",
@@ -57958,81 +57939,6 @@
         ]
       }
     },
-    "pf-t--chart--global--layout--padding": {
-      "default": {
-        "type": "number",
-        "value": 50,
-        "filePath": "tokens/default/light/charts.json",
-        "isSource": true,
-        "original": {
-          "type": "number",
-          "value": 50
-        },
-        "name": "pf-t--chart--global--layout--padding",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "layout",
-          "subitem": "padding"
-        },
-        "path": [
-          "chart",
-          "global",
-          "layout",
-          "padding"
-        ]
-      }
-    },
-    "pf-t--chart--global--layout--height": {
-      "default": {
-        "type": "number",
-        "value": 300,
-        "filePath": "tokens/default/light/charts.json",
-        "isSource": true,
-        "original": {
-          "type": "number",
-          "value": 300
-        },
-        "name": "pf-t--chart--global--layout--height",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "layout",
-          "subitem": "height"
-        },
-        "path": [
-          "chart",
-          "global",
-          "layout",
-          "height"
-        ]
-      }
-    },
-    "pf-t--chart--global--layout--width": {
-      "default": {
-        "type": "number",
-        "value": 450,
-        "filePath": "tokens/default/light/charts.json",
-        "isSource": true,
-        "original": {
-          "type": "number",
-          "value": 450
-        },
-        "name": "pf-t--chart--global--layout--width",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "layout",
-          "subitem": "width"
-        },
-        "path": [
-          "chart",
-          "global",
-          "layout",
-          "width"
-        ]
-      }
-    },
     "pf-t--chart--global--label--padding": {
       "default": {
         "type": "number",
@@ -58080,6 +57986,43 @@
           "global",
           "label",
           "margin"
+        ]
+      }
+    },
+    "pf-t--chart--global--label--stroke": {
+      "default": {
+        "width": {
+          "type": "number",
+          "value": 0,
+          "filePath": "tokens/default/light/charts.json",
+          "isSource": true
+        },
+        "type": "string",
+        "value": "transparent",
+        "filePath": "tokens/default/light/charts.json",
+        "isSource": true,
+        "original": {
+          "width": {
+            "type": "number",
+            "value": 0,
+            "filePath": "tokens/default/light/charts.json",
+            "isSource": true
+          },
+          "type": "string",
+          "value": "transparent"
+        },
+        "name": "pf-t--chart--global--label--stroke",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "label",
+          "subitem": "stroke"
+        },
+        "path": [
+          "chart",
+          "global",
+          "label",
+          "stroke"
         ]
       }
     },
@@ -58156,40 +58099,124 @@
         ]
       }
     },
-    "pf-t--chart--global--label--stroke": {
+    "pf-t--chart--global--stroke-line-cap": {
       "default": {
-        "width": {
-          "type": "number",
-          "value": 0,
-          "filePath": "tokens/default/light/charts.json",
-          "isSource": true
-        },
         "type": "string",
-        "value": "transparent",
+        "value": "round",
         "filePath": "tokens/default/light/charts.json",
         "isSource": true,
         "original": {
-          "width": {
-            "type": "number",
-            "value": 0,
-            "filePath": "tokens/default/light/charts.json",
-            "isSource": true
-          },
           "type": "string",
-          "value": "transparent"
+          "value": "round"
         },
-        "name": "pf-t--chart--global--label--stroke",
+        "name": "pf-t--chart--global--stroke-line-cap",
         "attributes": {
           "category": "chart",
           "type": "global",
-          "item": "label",
-          "subitem": "stroke"
+          "item": "stroke-line-cap"
         },
         "path": [
           "chart",
           "global",
-          "label",
-          "stroke"
+          "stroke-line-cap"
+        ]
+      }
+    },
+    "pf-t--chart--global--layout--padding": {
+      "default": {
+        "type": "number",
+        "value": 50,
+        "filePath": "tokens/default/light/charts.json",
+        "isSource": true,
+        "original": {
+          "type": "number",
+          "value": 50
+        },
+        "name": "pf-t--chart--global--layout--padding",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "layout",
+          "subitem": "padding"
+        },
+        "path": [
+          "chart",
+          "global",
+          "layout",
+          "padding"
+        ]
+      }
+    },
+    "pf-t--chart--global--layout--height": {
+      "default": {
+        "type": "number",
+        "value": 300,
+        "filePath": "tokens/default/light/charts.json",
+        "isSource": true,
+        "original": {
+          "type": "number",
+          "value": 300
+        },
+        "name": "pf-t--chart--global--layout--height",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "layout",
+          "subitem": "height"
+        },
+        "path": [
+          "chart",
+          "global",
+          "layout",
+          "height"
+        ]
+      }
+    },
+    "pf-t--chart--global--layout--width": {
+      "default": {
+        "type": "number",
+        "value": 450,
+        "filePath": "tokens/default/light/charts.json",
+        "isSource": true,
+        "original": {
+          "type": "number",
+          "value": 450
+        },
+        "name": "pf-t--chart--global--layout--width",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "layout",
+          "subitem": "width"
+        },
+        "path": [
+          "chart",
+          "global",
+          "layout",
+          "width"
+        ]
+      }
+    },
+    "pf-t--chart--global--stroke-line-join": {
+      "default": {
+        "type": "string",
+        "value": "round",
+        "filePath": "tokens/default/light/charts.json",
+        "isSource": true,
+        "original": {
+          "type": "string",
+          "value": "round"
+        },
+        "name": "pf-t--chart--global--stroke-line-join",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "stroke-line-join"
+        },
+        "path": [
+          "chart",
+          "global",
+          "stroke-line-join"
         ]
       }
     },
