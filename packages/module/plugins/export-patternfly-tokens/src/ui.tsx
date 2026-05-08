@@ -72,12 +72,12 @@ const saveVars = (text, setJsonFiles, setZipFile) => {
         saveFolderNames = ['default/glass-dark'];
         break;
       // Semantic color - high contrast
-      case '/* Default Semantic Color Tokens.Light - High Contrast (Beta).tokens.json */':
+      case '/* Default Semantic Color Tokens.Light - High Contrast.tokens.json */':
         saveFileName = 'semantic.highcontrast.json';
         saveFolderNames = ['default/highcontrast'];
         break;
       // Semantic color - high contrast - dark
-      case '/* Default Semantic Color Tokens.Dark - High Contrast (Beta).tokens.json */':
+      case '/* Default Semantic Color Tokens.Dark - High Contrast.tokens.json */':
         saveFileName = 'semantic.highcontrast.dark.json';
         saveFolderNames = ['default/highcontrast-dark'];
         break;
@@ -87,7 +87,7 @@ const saveVars = (text, setJsonFiles, setZipFile) => {
         saveFolderNames = ['default/light'];
         break;
       // Semantic dimension - high contrast
-      case '/* Default Semantic Dimension Tokens.High Contrast - Beta.tokens.json */':
+      case '/* Default Semantic Dimension Tokens.High Contrast.tokens.json */':
         saveFileName = 'semantic.dimension.highcontrast.json';
         saveFolderNames = ['default/highcontrast'];
         break;
@@ -113,12 +113,12 @@ const saveVars = (text, setJsonFiles, setZipFile) => {
         saveFolderNames = ['default/dark'];
         break;
       // Charts - high contrast - light
-      case '/* Charts.High Contrast - Light.tokens.json */':
+      case '/* Charts.Light - High Contrast.tokens.json */':
         saveFileName = 'charts.highcontrast.json';
         saveFolderNames = ['default/light'];
         break;
       // Charts - high contrast - dark
-      case '/* Charts.High Contrast - Dark.tokens.json */':
+      case '/* Charts.Dark - High Contrast.tokens.json */':
         saveFileName = 'charts.highcontrast.dark.json';
         saveFolderNames = ['default/dark'];
         break;
@@ -140,11 +140,11 @@ const saveVars = (text, setJsonFiles, setZipFile) => {
         saveFileName = 'felt.color.glass.dark.json';
         saveFolderNames = ['felt/glass-dark'];
         break;
-      case '/* Felt Color Tokens.Light - High Contrast (Beta).tokens.json */':
+      case '/* Felt Color Tokens.Light - High Contrast.tokens.json */':
         saveFileName = 'felt.color.highcontrast.json';
         saveFolderNames = ['felt/highcontrast'];
         break;
-      case '/* Felt Color Tokens.Dark - High Contrast (Beta).tokens.json */':
+      case '/* Felt Color Tokens.Dark - High Contrast.tokens.json */':
         saveFileName = 'felt.color.highcontrast.dark.json';
         saveFolderNames = ['felt/highcontrast-dark'];
         break;
@@ -157,7 +157,7 @@ const saveVars = (text, setJsonFiles, setZipFile) => {
         saveFileName = 'felt.dimension.glass.json';
         saveFolderNames = ['felt/glass'];
         break;
-      case '/* Felt Dimension Tokens.High Contrast - Beta.tokens.json */':
+      case '/* Felt Dimension Tokens.High Contrast.tokens.json */':
         saveFileName = 'felt.dimension.highcontrast.json';
         saveFolderNames = ['felt/highcontrast'];
         break;

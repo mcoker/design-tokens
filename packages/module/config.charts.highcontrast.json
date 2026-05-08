@@ -1,12 +1,12 @@
 {
-  "source": ["tokens/default/light/palette.color.json", "tokens/default/light/charts.json"],
+  "source": ["tokens/default/light/palette.color.json", "tokens/default/light/charts.highcontrast.json"],
   "platforms": {
     "css": {
       "transformGroup": "patternfly/css",
       "buildPath": "build/css/",
       "prefix": "pf-t",
       "files": [{
-        "destination": "tokens-charts.scss",
+        "destination": "tokens-charts-highcontrast.scss",
         "format": "customFormat",
         "options": {
           "outputReferences": true

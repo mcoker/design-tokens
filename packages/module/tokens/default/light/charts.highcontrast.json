@@ -252,6 +252,12 @@
             "type": "color",
             "value": "{color.white}"
           }
+        },
+        "opacity": {
+          "area": {
+            "type": "number",
+            "value": 10
+          }
         }
       },
       "warning": {
@@ -332,12 +338,14 @@
           "value": "{color.gray.90}"
         },
         "stroke": {
+          "color": {
+            "type": "string",
+            "value": "transparent"
+          },
           "width": {
             "type": "number",
             "value": 0
-          },
-          "type": "string",
-          "value": "transparent"
+          }
         }
       }
     },

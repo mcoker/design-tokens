@@ -128,7 +128,7 @@ const build = (selector) => {
   StyleDictionary.registerTransform({
     name: 'patternfly/global/percentage',
     type: 'value',
-    matcher: (token) => token.attributes.item === 'opacity' && token.original.type === 'number',
+    matcher: (token) => token.path.includes('opacity') && token.original.type === 'number',
     transformer: (token) => `${token.value}%`
   });
   
@@ -190,6 +190,12 @@ const build = (selector) => {
 
   const highContrastDarkExtendedSD = StyleDictionary.extend(__dirname + '/config.highcontrast.dark.json');
   highContrastDarkExtendedSD.buildAllPlatforms();
+
+  const chartsHighContrastExtendedSD = StyleDictionary.extend(__dirname + '/config.charts.highcontrast.json');
+  chartsHighContrastExtendedSD.buildAllPlatforms();
+
+  const chartsHighContrastDarkExtendedSD = StyleDictionary.extend(__dirname + '/config.charts.highcontrast.dark.json');
+  chartsHighContrastDarkExtendedSD.buildAllPlatforms();
 
   // Set glass tokens to initial in highcontrast themes
   console.log('Setting glass tokens to initial in highcontrast themes...');
