@@ -11,12 +11,12 @@ import * as glassTokens from './token-layers-glass.json';
 import * as glassDarkTokens from './token-layers-glass-dark.json';
 import * as highcontrastTokens from './token-layers-highcontrast.json';
 import * as highcontrastDarkTokens from './token-layers-highcontrast-dark.json';
-import * as redhatTokens from './token-layers-redhat.json';
-import * as redhatDarkTokens from './token-layers-redhat-dark.json';
-import * as redhatGlassTokens from './token-layers-redhat-glass.json';
-import * as redhatGlassDarkTokens from './token-layers-redhat-glass-dark.json';
-import * as redhatHighcontrastTokens from './token-layers-redhat-highcontrast.json';
-import * as redhatHighcontrastDarkTokens from './token-layers-redhat-highcontrast-dark.json';
+import * as feltTokens from './token-layers-felt.json';
+import * as feltDarkTokens from './token-layers-felt-dark.json';
+import * as feltGlassTokens from './token-layers-felt-glass.json';
+import * as feltGlassDarkTokens from './token-layers-felt-glass-dark.json';
+import * as feltHighcontrastTokens from './token-layers-felt-highcontrast.json';
+import * as feltHighcontrastDarkTokens from './token-layers-felt-highcontrast-dark.json';
 import { TokensTable } from './tokensTable.js';
 
 <TokensTable tokenJson={{
@@ -26,10 +26,10 @@ import { TokensTable } from './tokensTable.js';
   'glass-dark': glassDarkTokens,
   highcontrast: highcontrastTokens,
   'highcontrast-dark': highcontrastDarkTokens,
-  redhat: redhatTokens,
-  'redhat-dark': redhatDarkTokens,
-  'redhat-glass': redhatGlassTokens,
-  'redhat-glass-dark': redhatGlassDarkTokens,
-  'redhat-highcontrast': redhatHighcontrastTokens,
-  'redhat-highcontrast-dark': redhatHighcontrastDarkTokens
+  felt: feltTokens,
+  'felt-dark': feltDarkTokens,
+  'felt-glass': feltGlassTokens,
+  'felt-glass-dark': feltGlassDarkTokens,
+  'felt-highcontrast': feltHighcontrastTokens,
+  'felt-highcontrast-dark': feltHighcontrastDarkTokens
 }} />
