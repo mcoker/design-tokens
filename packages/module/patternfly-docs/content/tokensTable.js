@@ -249,7 +249,7 @@ const getCategoryTokensArr = (selectedCategory, categoryTokens) => {
 
 /**
  * Theme select order and "All themes" value rows: Default family (Light: DC, HC, Gl; then Dark: …),
- * then Unified family the same. Matches ThemeDisplayLabel column semantics.
+ * then Project Felt family the same. Matches ThemeDisplayLabel column semantics.
  */
 const THEME_OPTION_ORDER = [
   'default',
@@ -258,12 +258,12 @@ const THEME_OPTION_ORDER = [
   'dark',
   'highcontrast-dark',
   'glass-dark',
-  'redhat',
-  'redhat-highcontrast',
-  'redhat-glass',
-  'redhat-dark',
-  'redhat-highcontrast-dark',
-  'redhat-glass-dark'
+  'felt',
+  'felt-highcontrast',
+  'felt-glass',
+  'felt-dark',
+  'felt-highcontrast-dark',
+  'felt-glass-dark'
 ];
 
 const THEME_OPTION_ORDER_INDEX = Object.fromEntries(THEME_OPTION_ORDER.map((name, index) => [name, index]));

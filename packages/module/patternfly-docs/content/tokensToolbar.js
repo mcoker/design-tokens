@@ -27,18 +27,18 @@ const THEME_LABEL_PARTS = {
   'glass-dark': ['Default theme', 'Dark', 'Glass'],
   highcontrast: ['Default theme', 'Light', 'High contrast'],
   'highcontrast-dark': ['Default theme', 'Dark', 'High contrast'],
-  redhat: ['Unified theme', 'Light', 'Default contrast'],
-  'redhat-dark': ['Unified theme', 'Dark', 'Default contrast'],
-  'redhat-glass': ['Unified theme', 'Light', 'Glass'],
-  'redhat-glass-dark': ['Unified theme', 'Dark', 'Glass'],
-  'redhat-highcontrast': ['Unified theme', 'Light', 'High contrast'],
-  'redhat-highcontrast-dark': ['Unified theme', 'Dark', 'High contrast']
+  felt: ['Project Felt theme', 'Light', 'Default contrast'],
+  'felt-dark': ['Project Felt theme', 'Dark', 'Default contrast'],
+  'felt-glass': ['Project Felt theme', 'Light', 'Glass'],
+  'felt-glass-dark': ['Project Felt theme', 'Dark', 'Glass'],
+  'felt-highcontrast': ['Project Felt theme', 'Light', 'High contrast'],
+  'felt-highcontrast-dark': ['Project Felt theme', 'Dark', 'High contrast']
 };
 
 /** Full segment → acronym mapping */
 const THEME_SEGMENT_ABBREV = {
   'Default theme': 'DT',
-  'Unified theme': 'UT',
+  'Project Felt theme': 'PF',
   Light: 'Lt',
   Dark: 'Dk',
   'Default contrast': 'DC',
@@ -228,9 +228,9 @@ const TokensThemeSelect = ({ selectedTheme, setSelectedTheme, themeOptions, sele
   );
 
   const themesAfterAll = themeOptions.slice(1);
-  const defaultThemeOptions = themesAfterAll.filter((name) => !name.startsWith('redhat'));
-  const unifiedThemeOptions = themesAfterAll.filter((name) => name.startsWith('redhat'));
-  const showUnifiedDivider = defaultThemeOptions.length > 0 && unifiedThemeOptions.length > 0;
+  const defaultThemeOptions = themesAfterAll.filter((name) => !name.startsWith('felt'));
+  const projectFeltThemeOptions = themesAfterAll.filter((name) => name.startsWith('felt'));
+  const showProjectFeltDivider = defaultThemeOptions.length > 0 && projectFeltThemeOptions.length > 0;
 
   const renderThemeOption = (themeName) => (
     <SelectOption key={themeName} value={themeName} isSelected={selectedTheme === themeName}>
@@ -256,10 +256,10 @@ const TokensThemeSelect = ({ selectedTheme, setSelectedTheme, themeOptions, sele
           <SelectList>{defaultThemeOptions.map(renderThemeOption)}</SelectList>
         </SelectGroup>
       )}
-      {showUnifiedDivider && <Divider />}
-      {unifiedThemeOptions.length > 0 && (
+      {showProjectFeltDivider && <Divider />}
+      {projectFeltThemeOptions.length > 0 && (
         <SelectGroup label={null}>
-          <SelectList>{unifiedThemeOptions.map(renderThemeOption)}</SelectList>
+          <SelectList>{projectFeltThemeOptions.map(renderThemeOption)}</SelectList>
         </SelectGroup>
       )}
     </Select>

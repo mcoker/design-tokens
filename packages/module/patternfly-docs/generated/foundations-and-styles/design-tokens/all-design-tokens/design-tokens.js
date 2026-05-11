@@ -6,12 +6,12 @@ import * as glassTokens from '../../../../content/./token-layers-glass.json';
 import * as glassDarkTokens from '../../../../content/./token-layers-glass-dark.json';
 import * as highcontrastTokens from '../../../../content/./token-layers-highcontrast.json';
 import * as highcontrastDarkTokens from '../../../../content/./token-layers-highcontrast-dark.json';
-import * as redhatTokens from '../../../../content/./token-layers-redhat.json';
-import * as redhatDarkTokens from '../../../../content/./token-layers-redhat-dark.json';
-import * as redhatGlassTokens from '../../../../content/./token-layers-redhat-glass.json';
-import * as redhatGlassDarkTokens from '../../../../content/./token-layers-redhat-glass-dark.json';
-import * as redhatHighcontrastTokens from '../../../../content/./token-layers-redhat-highcontrast.json';
-import * as redhatHighcontrastDarkTokens from '../../../../content/./token-layers-redhat-highcontrast-dark.json';
+import * as feltTokens from '../../../../content/./token-layers-felt.json';
+import * as feltDarkTokens from '../../../../content/./token-layers-felt-dark.json';
+import * as feltGlassTokens from '../../../../content/./token-layers-felt-glass.json';
+import * as feltGlassDarkTokens from '../../../../content/./token-layers-felt-glass-dark.json';
+import * as feltHighcontrastTokens from '../../../../content/./token-layers-felt-highcontrast.json';
+import * as feltHighcontrastDarkTokens from '../../../../content/./token-layers-felt-highcontrast-dark.json';
 import { TokensTable } from '../../../../content/./tokensTable.js';
 const pageData = {
   "id": "All design tokens",
@@ -36,15 +36,15 @@ pageData.liveContext = {
   glassDarkTokens,
   highcontrastTokens,
   highcontrastDarkTokens,
-  redhatTokens,
-  redhatDarkTokens,
-  redhatGlassTokens,
-  redhatGlassDarkTokens,
-  redhatHighcontrastTokens,
-  redhatHighcontrastDarkTokens,
+  feltTokens,
+  feltDarkTokens,
+  feltGlassTokens,
+  feltGlassDarkTokens,
+  feltHighcontrastTokens,
+  feltHighcontrastDarkTokens,
   TokensTable
 };
-pageData.relativeImports = "import * as defaultTokens from 'content/./token-layers-default.json';,import * as darkTokens from 'content/./token-layers-dark.json';,import * as glassTokens from 'content/./token-layers-glass.json';,import * as glassDarkTokens from 'content/./token-layers-glass-dark.json';,import * as highcontrastTokens from 'content/./token-layers-highcontrast.json';,import * as highcontrastDarkTokens from 'content/./token-layers-highcontrast-dark.json';,import * as redhatTokens from 'content/./token-layers-redhat.json';,import * as redhatDarkTokens from 'content/./token-layers-redhat-dark.json';,import * as redhatGlassTokens from 'content/./token-layers-redhat-glass.json';,import * as redhatGlassDarkTokens from 'content/./token-layers-redhat-glass-dark.json';,import * as redhatHighcontrastTokens from 'content/./token-layers-redhat-highcontrast.json';,import * as redhatHighcontrastDarkTokens from 'content/./token-layers-redhat-highcontrast-dark.json';,import { TokensTable } from 'content/./tokensTable.js';"
+pageData.relativeImports = "import * as defaultTokens from 'content/./token-layers-default.json';,import * as darkTokens from 'content/./token-layers-dark.json';,import * as glassTokens from 'content/./token-layers-glass.json';,import * as glassDarkTokens from 'content/./token-layers-glass-dark.json';,import * as highcontrastTokens from 'content/./token-layers-highcontrast.json';,import * as highcontrastDarkTokens from 'content/./token-layers-highcontrast-dark.json';,import * as feltTokens from 'content/./token-layers-felt.json';,import * as feltDarkTokens from 'content/./token-layers-felt-dark.json';,import * as feltGlassTokens from 'content/./token-layers-felt-glass.json';,import * as feltGlassDarkTokens from 'content/./token-layers-felt-glass-dark.json';,import * as feltHighcontrastTokens from 'content/./token-layers-felt-highcontrast.json';,import * as feltHighcontrastDarkTokens from 'content/./token-layers-felt-highcontrast-dark.json';,import { TokensTable } from 'content/./tokensTable.js';"
 pageData.examples = {
   
 };
@@ -58,12 +58,12 @@ const Component = () => (
     'glass-dark': glassDarkTokens,
     highcontrast: highcontrastTokens,
     'highcontrast-dark': highcontrastDarkTokens,
-    redhat: redhatTokens,
-    'redhat-dark': redhatDarkTokens,
-    'redhat-glass': redhatGlassTokens,
-    'redhat-glass-dark': redhatGlassDarkTokens,
-    'redhat-highcontrast': redhatHighcontrastTokens,
-    'redhat-highcontrast-dark': redhatHighcontrastDarkTokens
+    felt: feltTokens,
+    'felt-dark': feltDarkTokens,
+    'felt-glass': feltGlassTokens,
+    'felt-glass-dark': feltGlassDarkTokens,
+    'felt-highcontrast': feltHighcontrastTokens,
+    'felt-highcontrast-dark': feltHighcontrastDarkTokens
   }}/>
   </React.Fragment>
 );
