@@ -1,5 +1,5 @@
 {
-  "source": ["tokens/highcontrast/*.json"],
+  "source": ["tokens/default/highcontrast/*.json"],
   "basePxFontSize": 16,
   "platforms": {
     "css": {
