@@ -41263,52 +41263,6 @@
         ]
       }
     },
-    "pf-t--chart--global--label--fill": {
-      "default": {
-        "type": "color",
-        "value": "#ffffff",
-        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
-        "isSource": true,
-        "original": {
-          "type": "color",
-          "value": "{color.white}"
-        },
-        "name": "pf-t--chart--global--label--fill",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "label",
-          "subitem": "fill"
-        },
-        "path": [
-          "chart",
-          "global",
-          "label",
-          "fill"
-        ],
-        "references": [
-          {
-            "type": "color",
-            "value": "#ffffff",
-            "filePath": "tokens/default/dark/palette.color.json",
-            "isSource": true,
-            "original": {
-              "type": "color",
-              "value": "#ffffff"
-            },
-            "name": "pf-t--color--white",
-            "attributes": {
-              "category": "color",
-              "type": "white"
-            },
-            "path": [
-              "color",
-              "white"
-            ]
-          }
-        ]
-      }
-    },
     "pf-t--chart--global--label--stroke--color": {
       "default": {
         "type": "string",
@@ -41360,6 +41314,52 @@
           "label",
           "stroke",
           "width"
+        ]
+      }
+    },
+    "pf-t--chart--global--label--fill": {
+      "default": {
+        "type": "color",
+        "value": "#ffffff",
+        "filePath": "tokens/default/dark/charts.highcontrast.dark.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "{color.white}"
+        },
+        "name": "pf-t--chart--global--label--fill",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "label",
+          "subitem": "fill"
+        },
+        "path": [
+          "chart",
+          "global",
+          "label",
+          "fill"
+        ],
+        "references": [
+          {
+            "type": "color",
+            "value": "#ffffff",
+            "filePath": "tokens/default/dark/palette.color.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "#ffffff"
+            },
+            "name": "pf-t--color--white",
+            "attributes": {
+              "category": "color",
+              "type": "white"
+            },
+            "path": [
+              "color",
+              "white"
+            ]
+          }
         ]
       }
     },

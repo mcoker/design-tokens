@@ -333,10 +333,6 @@
           "type": "string",
           "value": "middle"
         },
-        "fill": {
-          "type": "color",
-          "value": "{color.gray.90}"
-        },
         "stroke": {
           "color": {
             "type": "string",
@@ -346,6 +342,10 @@
             "type": "number",
             "value": 0
           }
+        },
+        "fill": {
+          "type": "color",
+          "value": "{color.gray.90}"
         }
       }
     },

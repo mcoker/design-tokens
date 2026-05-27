@@ -4,11 +4,6 @@
     "color": {
       "brand": {
         "accent": {
-          "default": {
-            "description": "Use this color for elements that you want to reinforce your brand",
-            "type": "color",
-            "value": "{global.dark.color.brand.accent.400}"
-          },
           "hover": {
             "description": "Use as the hover state for elements that have a branded background color",
             "type": "color",
@@ -18,6 +13,11 @@
             "description": "Use as the clicked state for elements that have a brand background color",
             "type": "color",
             "value": "{global.dark.color.brand.accent.350}"
+          },
+          "default": {
+            "description": "Use this color for elements that you want to reinforce your brand",
+            "type": "color",
+            "value": "{global.dark.color.brand.accent.400}"
           }
         }
       }
@@ -26,13 +26,13 @@
       "color": {
         "brand": {
           "accent": {
-            "clicked": {
-              "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
+            "hover": {
+              "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
               "type": "color",
               "value": "{global.dark.color.brand.accent.400}"
             },
-            "hover": {
-              "description": "Use as the hover state border color for any branded element, like color-coded labels, banners, etc.",
+            "clicked": {
+              "description": "Use as the clicked state border color for any branded element, like color-coded labels, banners, etc.",
               "type": "color",
               "value": "{global.dark.color.brand.accent.400}"
             },

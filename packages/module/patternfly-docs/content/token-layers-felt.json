@@ -58135,54 +58135,6 @@
         ]
       }
     },
-    "pf-t--chart--global--label--fill": {
-      "default": {
-        "type": "color",
-        "value": "#1f1f1f",
-        "filePath": "tokens/default/light/charts.json",
-        "isSource": true,
-        "original": {
-          "type": "color",
-          "value": "{color.gray.90}"
-        },
-        "name": "pf-t--chart--global--label--fill",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "label",
-          "subitem": "fill"
-        },
-        "path": [
-          "chart",
-          "global",
-          "label",
-          "fill"
-        ],
-        "references": [
-          {
-            "type": "color",
-            "value": "#1f1f1f",
-            "filePath": "tokens/default/light/palette.color.json",
-            "isSource": true,
-            "original": {
-              "type": "color",
-              "value": "#1f1f1f"
-            },
-            "name": "pf-t--color--gray--90",
-            "attributes": {
-              "category": "color",
-              "type": "gray",
-              "item": "90"
-            },
-            "path": [
-              "color",
-              "gray",
-              "90"
-            ]
-          }
-        ]
-      }
-    },
     "pf-t--chart--global--label--stroke--color": {
       "default": {
         "type": "string",
@@ -58234,6 +58186,54 @@
           "label",
           "stroke",
           "width"
+        ]
+      }
+    },
+    "pf-t--chart--global--label--fill": {
+      "default": {
+        "type": "color",
+        "value": "#1f1f1f",
+        "filePath": "tokens/default/light/charts.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "{color.gray.90}"
+        },
+        "name": "pf-t--chart--global--label--fill",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "label",
+          "subitem": "fill"
+        },
+        "path": [
+          "chart",
+          "global",
+          "label",
+          "fill"
+        ],
+        "references": [
+          {
+            "type": "color",
+            "value": "#1f1f1f",
+            "filePath": "tokens/default/light/palette.color.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "#1f1f1f"
+            },
+            "name": "pf-t--color--gray--90",
+            "attributes": {
+              "category": "color",
+              "type": "gray",
+              "item": "90"
+            },
+            "path": [
+              "color",
+              "gray",
+              "90"
+            ]
+          }
         ]
       }
     },
