@@ -9297,13 +9297,13 @@
         "default": {
           "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
           "type": "color",
-          "value": "rgba(255, 255, 255, 0.0000)",
+          "value": "rgb(255, 255, 255, 0.0000)",
           "filePath": "tokens/default/light/semantic.json",
           "isSource": true,
           "original": {
             "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
             "type": "color",
-            "value": "rgba(255, 255, 255, 0.0000)"
+            "value": "rgb(255, 255, 255, 0.0000)"
           },
           "name": "pf-t--global--border--color--high-contrast",
           "attributes": {
@@ -14490,7 +14490,7 @@
         "default": {
           "description": "Use as the color of small box-shadows.",
           "type": "color",
-          "value": "rgba(41, 41, 41, 0.1500)",
+          "value": "rgb(41, 41, 41, 0.1500)",
           "filePath": "tokens/default/light/semantic.json",
           "isSource": true,
           "original": {
@@ -14516,12 +14516,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(41, 41, 41, 0.1500)",
+              "value": "rgb(41, 41, 41, 0.1500)",
               "filePath": "tokens/default/light/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(41, 41, 41, 0.1500)"
+                "value": "rgb(41, 41, 41, 0.1500)"
               },
               "name": "pf-t--global--box-shadow--color--100",
               "attributes": {
@@ -14544,7 +14544,7 @@
         "default": {
           "description": "Use as the color of small box-shadows.",
           "type": "color",
-          "value": "rgba(41, 41, 41, 0.2000)",
+          "value": "rgb(41, 41, 41, 0.2000)",
           "filePath": "tokens/default/light/semantic.json",
           "isSource": true,
           "original": {
@@ -14570,12 +14570,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(41, 41, 41, 0.2000)",
+              "value": "rgb(41, 41, 41, 0.2000)",
               "filePath": "tokens/default/light/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(41, 41, 41, 0.2000)"
+                "value": "rgb(41, 41, 41, 0.2000)"
               },
               "name": "pf-t--global--box-shadow--color--200",
               "attributes": {
@@ -14598,7 +14598,7 @@
         "default": {
           "description": "Use as the color of medium box-shadows.",
           "type": "color",
-          "value": "rgba(41, 41, 41, 0.1500)",
+          "value": "rgb(41, 41, 41, 0.1500)",
           "filePath": "tokens/default/light/semantic.json",
           "isSource": true,
           "original": {
@@ -14624,12 +14624,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(41, 41, 41, 0.1500)",
+              "value": "rgb(41, 41, 41, 0.1500)",
               "filePath": "tokens/default/light/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(41, 41, 41, 0.1500)"
+                "value": "rgb(41, 41, 41, 0.1500)"
               },
               "name": "pf-t--global--box-shadow--color--100",
               "attributes": {
@@ -14652,7 +14652,7 @@
         "default": {
           "description": "Use as the color of medium box-shadows.",
           "type": "color",
-          "value": "rgba(41, 41, 41, 0.1500)",
+          "value": "rgb(41, 41, 41, 0.1500)",
           "filePath": "tokens/default/light/semantic.json",
           "isSource": true,
           "original": {
@@ -14678,12 +14678,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(41, 41, 41, 0.1500)",
+              "value": "rgb(41, 41, 41, 0.1500)",
               "filePath": "tokens/default/light/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(41, 41, 41, 0.1500)"
+                "value": "rgb(41, 41, 41, 0.1500)"
               },
               "name": "pf-t--global--box-shadow--color--100",
               "attributes": {
@@ -14706,7 +14706,7 @@
         "default": {
           "description": "Use as the color of large box-shadows.",
           "type": "color",
-          "value": "rgba(41, 41, 41, 0.1500)",
+          "value": "rgb(41, 41, 41, 0.1500)",
           "filePath": "tokens/default/light/semantic.json",
           "isSource": true,
           "original": {
@@ -14732,12 +14732,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(41, 41, 41, 0.1500)",
+              "value": "rgb(41, 41, 41, 0.1500)",
               "filePath": "tokens/default/light/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(41, 41, 41, 0.1500)"
+                "value": "rgb(41, 41, 41, 0.1500)"
               },
               "name": "pf-t--global--box-shadow--color--100",
               "attributes": {
@@ -14760,7 +14760,7 @@
         "default": {
           "description": "Use as the color of large box-shadows.",
           "type": "color",
-          "value": "rgba(41, 41, 41, 0.2000)",
+          "value": "rgb(41, 41, 41, 0.2000)",
           "filePath": "tokens/default/light/semantic.json",
           "isSource": true,
           "original": {
@@ -14786,12 +14786,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(41, 41, 41, 0.2000)",
+              "value": "rgb(41, 41, 41, 0.2000)",
               "filePath": "tokens/default/light/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(41, 41, 41, 0.2000)"
+                "value": "rgb(41, 41, 41, 0.2000)"
               },
               "name": "pf-t--global--box-shadow--color--200",
               "attributes": {
@@ -15605,7 +15605,7 @@
         "default": {
           "description": "Use as the tertiary background color. This is primarily used for containers that can be placed on secondary backgrounds.",
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.2500)",
+          "value": "rgb(199, 199, 199, 0.2500)",
           "filePath": "tokens/default/light/semantic.json",
           "isSource": true,
           "original": {
@@ -15631,12 +15631,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(199, 199, 199, 0.2500)",
+              "value": "rgb(199, 199, 199, 0.2500)",
               "filePath": "tokens/default/light/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(199, 199, 199, 0.2500)"
+                "value": "rgb(199, 199, 199, 0.2500)"
               },
               "name": "pf-t--global--background--color--600",
               "attributes": {
@@ -16171,13 +16171,13 @@
         "default": {
           "description": "Use as the default background for actions with transparent backgrounds such as menu items, accordion toggles, buttons, etc.",
           "type": "color",
-          "value": "rgba(255, 255, 255, 0.0000)",
+          "value": "rgb(255, 255, 255, 0.0000)",
           "filePath": "tokens/default/light/semantic.json",
           "isSource": true,
           "original": {
             "description": "Use as the default background for actions with transparent backgrounds such as menu items, accordion toggles, buttons, etc.",
             "type": "color",
-            "value": "rgba(255, 255, 255, 0.0000)"
+            "value": "rgb(255, 255, 255, 0.0000)"
           },
           "name": "pf-t--global--background--color--action--plain--default",
           "attributes": {
@@ -16201,7 +16201,7 @@
         "default": {
           "description": "Use as the hover state for components that use the plain action default background.",
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.2500)",
+          "value": "rgb(199, 199, 199, 0.2500)",
           "filePath": "tokens/default/light/semantic.json",
           "isSource": true,
           "original": {
@@ -16228,12 +16228,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(199, 199, 199, 0.2500)",
+              "value": "rgb(199, 199, 199, 0.2500)",
               "filePath": "tokens/default/light/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(199, 199, 199, 0.2500)"
+                "value": "rgb(199, 199, 199, 0.2500)"
               },
               "name": "pf-t--global--background--color--600",
               "attributes": {
@@ -16256,7 +16256,7 @@
         "default": {
           "description": "Use as the active/pressed state for components that use the plain action default background.",
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.2500)",
+          "value": "rgb(199, 199, 199, 0.2500)",
           "filePath": "tokens/default/light/semantic.json",
           "isSource": true,
           "original": {
@@ -16283,12 +16283,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(199, 199, 199, 0.2500)",
+              "value": "rgb(199, 199, 199, 0.2500)",
               "filePath": "tokens/default/light/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(199, 199, 199, 0.2500)"
+                "value": "rgb(199, 199, 199, 0.2500)"
               },
               "name": "pf-t--global--background--color--600",
               "attributes": {
@@ -16952,7 +16952,7 @@
         "default": {
           "description": "Use as the background color for the backdrop component that shows beneath a modal/about modal/floating wizard etc.",
           "type": "color",
-          "value": "rgba(21, 21, 21, 0.4000)",
+          "value": "rgb(21, 21, 21, 0.4000)",
           "filePath": "tokens/default/light/semantic.json",
           "isSource": true,
           "original": {
@@ -16978,12 +16978,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(21, 21, 21, 0.4000)",
+              "value": "rgb(21, 21, 21, 0.4000)",
               "filePath": "tokens/default/light/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(21, 21, 21, 0.4000)"
+                "value": "rgb(21, 21, 21, 0.4000)"
               },
               "name": "pf-t--global--background--color--500",
               "attributes": {
@@ -17005,7 +17005,7 @@
       "pf-t--global--background--color--striped--row--default": {
         "default": {
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.1000)",
+          "value": "rgb(199, 199, 199, 0.1000)",
           "filePath": "tokens/default/light/semantic.json",
           "isSource": true,
           "original": {
@@ -17031,12 +17031,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(199, 199, 199, 0.1000)",
+              "value": "rgb(199, 199, 199, 0.1000)",
               "filePath": "tokens/default/light/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(199, 199, 199, 0.1000)"
+                "value": "rgb(199, 199, 199, 0.1000)"
               },
               "name": "pf-t--global--background--color--700",
               "attributes": {
@@ -17058,7 +17058,7 @@
       "pf-t--global--background--color--loading--skeleton--default": {
         "default": {
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.2500)",
+          "value": "rgb(199, 199, 199, 0.2500)",
           "filePath": "tokens/default/light/semantic.json",
           "isSource": true,
           "original": {
@@ -17084,12 +17084,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(199, 199, 199, 0.2500)",
+              "value": "rgb(199, 199, 199, 0.2500)",
               "filePath": "tokens/default/light/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(199, 199, 199, 0.2500)"
+                "value": "rgb(199, 199, 199, 0.2500)"
               },
               "name": "pf-t--global--background--color--600",
               "attributes": {
@@ -17111,7 +17111,7 @@
       "pf-t--global--background--color--loading--skeleton--subtle": {
         "default": {
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.1000)",
+          "value": "rgb(199, 199, 199, 0.1000)",
           "filePath": "tokens/default/light/semantic.json",
           "isSource": true,
           "original": {
@@ -17137,12 +17137,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(199, 199, 199, 0.1000)",
+              "value": "rgb(199, 199, 199, 0.1000)",
               "filePath": "tokens/default/light/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(199, 199, 199, 0.1000)"
+                "value": "rgb(199, 199, 199, 0.1000)"
               },
               "name": "pf-t--global--background--color--700",
               "attributes": {
@@ -44492,12 +44492,12 @@
       "pf-t--global--box-shadow--color--100": {
         "default": {
           "type": "color",
-          "value": "rgba(41, 41, 41, 0.1500)",
+          "value": "rgb(41, 41, 41, 0.1500)",
           "filePath": "tokens/default/light/base.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "rgba(41, 41, 41, 0.1500)"
+            "value": "rgb(41, 41, 41, 0.1500)"
           },
           "name": "pf-t--global--box-shadow--color--100",
           "attributes": {
@@ -44517,12 +44517,12 @@
       "pf-t--global--box-shadow--color--200": {
         "default": {
           "type": "color",
-          "value": "rgba(41, 41, 41, 0.2000)",
+          "value": "rgb(41, 41, 41, 0.2000)",
           "filePath": "tokens/default/light/base.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "rgba(41, 41, 41, 0.2000)"
+            "value": "rgb(41, 41, 41, 0.2000)"
           },
           "name": "pf-t--global--box-shadow--color--200",
           "attributes": {
@@ -44780,12 +44780,12 @@
       "pf-t--global--background--color--500": {
         "default": {
           "type": "color",
-          "value": "rgba(21, 21, 21, 0.4000)",
+          "value": "rgb(21, 21, 21, 0.4000)",
           "filePath": "tokens/default/light/base.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "rgba(21, 21, 21, 0.4000)"
+            "value": "rgb(21, 21, 21, 0.4000)"
           },
           "name": "pf-t--global--background--color--500",
           "attributes": {
@@ -44805,12 +44805,12 @@
       "pf-t--global--background--color--600": {
         "default": {
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.2500)",
+          "value": "rgb(199, 199, 199, 0.2500)",
           "filePath": "tokens/default/light/base.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "rgba(199, 199, 199, 0.2500)"
+            "value": "rgb(199, 199, 199, 0.2500)"
           },
           "name": "pf-t--global--background--color--600",
           "attributes": {
@@ -44830,12 +44830,12 @@
       "pf-t--global--background--color--700": {
         "default": {
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.1000)",
+          "value": "rgb(199, 199, 199, 0.1000)",
           "filePath": "tokens/default/light/base.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "rgba(199, 199, 199, 0.1000)"
+            "value": "rgb(199, 199, 199, 0.1000)"
           },
           "name": "pf-t--global--background--color--700",
           "attributes": {
@@ -58135,54 +58135,6 @@
         ]
       }
     },
-    "pf-t--chart--global--label--fill": {
-      "default": {
-        "type": "color",
-        "value": "#1f1f1f",
-        "filePath": "tokens/default/light/charts.json",
-        "isSource": true,
-        "original": {
-          "type": "color",
-          "value": "{color.gray.90}"
-        },
-        "name": "pf-t--chart--global--label--fill",
-        "attributes": {
-          "category": "chart",
-          "type": "global",
-          "item": "label",
-          "subitem": "fill"
-        },
-        "path": [
-          "chart",
-          "global",
-          "label",
-          "fill"
-        ],
-        "references": [
-          {
-            "type": "color",
-            "value": "#1f1f1f",
-            "filePath": "tokens/default/light/palette.color.json",
-            "isSource": true,
-            "original": {
-              "type": "color",
-              "value": "#1f1f1f"
-            },
-            "name": "pf-t--color--gray--90",
-            "attributes": {
-              "category": "color",
-              "type": "gray",
-              "item": "90"
-            },
-            "path": [
-              "color",
-              "gray",
-              "90"
-            ]
-          }
-        ]
-      }
-    },
     "pf-t--chart--global--label--stroke--color": {
       "default": {
         "type": "string",
@@ -58234,6 +58186,54 @@
           "label",
           "stroke",
           "width"
+        ]
+      }
+    },
+    "pf-t--chart--global--label--fill": {
+      "default": {
+        "type": "color",
+        "value": "#1f1f1f",
+        "filePath": "tokens/default/light/charts.json",
+        "isSource": true,
+        "original": {
+          "type": "color",
+          "value": "{color.gray.90}"
+        },
+        "name": "pf-t--chart--global--label--fill",
+        "attributes": {
+          "category": "chart",
+          "type": "global",
+          "item": "label",
+          "subitem": "fill"
+        },
+        "path": [
+          "chart",
+          "global",
+          "label",
+          "fill"
+        ],
+        "references": [
+          {
+            "type": "color",
+            "value": "#1f1f1f",
+            "filePath": "tokens/default/light/palette.color.json",
+            "isSource": true,
+            "original": {
+              "type": "color",
+              "value": "#1f1f1f"
+            },
+            "name": "pf-t--color--gray--90",
+            "attributes": {
+              "category": "color",
+              "type": "gray",
+              "item": "90"
+            },
+            "path": [
+              "color",
+              "gray",
+              "90"
+            ]
+          }
         ]
       }
     },

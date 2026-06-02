@@ -7,34 +7,34 @@
           "default": {
             "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
             "type": "color",
-            "value": "rgba(255, 255, 255, 0.6000)"
+            "value": "rgb(255, 255, 255, 0.6000)"
           },
           "hover": {
             "description": "Use as the hover state for primary backgrounds",
             "type": "color",
-            "value": "rgba(199, 199, 199, 0.3000)"
+            "value": "rgb(199, 199, 199, 0.3000)"
           },
           "clicked": {
             "description": "Use as the clicked state for primary backgrounds",
             "type": "color",
-            "value": "rgba(199, 199, 199, 0.3000)"
+            "value": "rgb(199, 199, 199, 0.3000)"
           }
         },
         "secondary": {
           "default": {
             "description": "Use as the secondary background color for UI content Use as the primary background color for UI content such as cards, page sections, and other content areas. Secondary background color is also used for our UI shell backgrounds (nav, masthead, etc).",
             "type": "color",
-            "value": "rgba(199, 199, 199, 0.3000)"
+            "value": "rgb(199, 199, 199, 0.3000)"
           },
           "hover": {
             "description": "Use as the hover state for secondary backgrounds",
             "type": "color",
-            "value": "rgba(163, 163, 163, 0.3000)"
+            "value": "rgb(163, 163, 163, 0.3000)"
           },
           "clicked": {
             "description": "Use as the clicked state for secondary backgrounds",
             "type": "color",
-            "value": "rgba(163, 163, 163, 0.3000)"
+            "value": "rgb(163, 163, 163, 0.3000)"
           }
         },
         "tertiary": {
@@ -48,7 +48,7 @@
           "primary": {
             "default": {
               "type": "color",
-              "value": "rgba(255, 255, 255, 0.5000)"
+              "value": "rgb(255, 255, 255, 0.5000)"
             }
           }
         },
@@ -87,7 +87,7 @@
             "default": {
               "description": "Use as the default background for actions with transparent backgrounds such as menu items, accordion toggles, buttons, etc.",
               "type": "color",
-              "value": "rgba(255, 255, 255, 0.0000)"
+              "value": "rgb(255, 255, 255, 0.0000)"
             },
             "hover": {
               "description": "Use as the hover state for components that use the plain action default background.",
@@ -1100,7 +1100,7 @@
         "high-contrast": {
           "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
           "type": "color",
-          "value": "rgba(255, 255, 255, 0.0000)"
+          "value": "rgb(255, 255, 255, 0.0000)"
         },
         "default": {
           "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",

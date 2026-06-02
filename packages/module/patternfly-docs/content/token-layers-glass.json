@@ -9372,13 +9372,13 @@
         "default": {
           "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
           "type": "color",
-          "value": "rgba(255, 255, 255, 0.0000)",
+          "value": "rgb(255, 255, 255, 0.0000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
             "description": "Use as the default border color for elements like form inputs, menu toggles, cards, etc.",
             "type": "color",
-            "value": "rgba(255, 255, 255, 0.0000)"
+            "value": "rgb(255, 255, 255, 0.0000)"
           },
           "name": "pf-t--global--border--color--high-contrast",
           "attributes": {
@@ -9774,7 +9774,7 @@
         "default": {
           "description": "Use when border color needs to match the primary bkg color – helpful when you want a divider to look like negative space when shown on a colored bkg",
           "type": "color",
-          "value": "rgba(255, 255, 255, 0.6000)",
+          "value": "rgb(255, 255, 255, 0.6000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -9799,13 +9799,13 @@
             {
               "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
               "type": "color",
-              "value": "rgba(255, 255, 255, 0.6000)",
+              "value": "rgb(255, 255, 255, 0.6000)",
               "filePath": "tokens/default/glass/semantic.glass.json",
               "isSource": true,
               "original": {
                 "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
                 "type": "color",
-                "value": "rgba(255, 255, 255, 0.6000)"
+                "value": "rgb(255, 255, 255, 0.6000)"
               },
               "name": "pf-t--global--background--color--primary--default",
               "attributes": {
@@ -12556,7 +12556,7 @@
       "pf-t--global--border--color--glass--default": {
         "default": {
           "type": "color",
-          "value": "rgba(255, 255, 255, 0.6000)",
+          "value": "rgb(255, 255, 255, 0.6000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -12582,7 +12582,7 @@
             {
               "description": "Use when border color needs to match the primary bkg color – helpful when you want a divider to look like negative space when shown on a colored bkg",
               "type": "color",
-              "value": "rgba(255, 255, 255, 0.6000)",
+              "value": "rgb(255, 255, 255, 0.6000)",
               "filePath": "tokens/default/glass/semantic.glass.json",
               "isSource": true,
               "original": {
@@ -12607,13 +12607,13 @@
                 {
                   "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
                   "type": "color",
-                  "value": "rgba(255, 255, 255, 0.6000)",
+                  "value": "rgb(255, 255, 255, 0.6000)",
                   "filePath": "tokens/default/glass/semantic.glass.json",
                   "isSource": true,
                   "original": {
                     "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
                     "type": "color",
-                    "value": "rgba(255, 255, 255, 0.6000)"
+                    "value": "rgb(255, 255, 255, 0.6000)"
                   },
                   "name": "pf-t--global--background--color--primary--default",
                   "attributes": {
@@ -14799,7 +14799,7 @@
       "pf-t--global--border--color--main--default": {
         "default": {
           "type": "color",
-          "value": "rgba(255, 255, 255, 0.6000)",
+          "value": "rgb(255, 255, 255, 0.6000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -14825,13 +14825,13 @@
             {
               "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
               "type": "color",
-              "value": "rgba(255, 255, 255, 0.6000)",
+              "value": "rgb(255, 255, 255, 0.6000)",
               "filePath": "tokens/default/glass/semantic.glass.json",
               "isSource": true,
               "original": {
                 "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
                 "type": "color",
-                "value": "rgba(255, 255, 255, 0.6000)"
+                "value": "rgb(255, 255, 255, 0.6000)"
               },
               "name": "pf-t--global--background--color--primary--default",
               "attributes": {
@@ -14856,7 +14856,7 @@
         "default": {
           "description": "Use as the color of small box-shadows.",
           "type": "color",
-          "value": "rgba(41, 41, 41, 0.1500)",
+          "value": "rgb(41, 41, 41, 0.1500)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -14882,12 +14882,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(41, 41, 41, 0.1500)",
+              "value": "rgb(41, 41, 41, 0.1500)",
               "filePath": "tokens/default/glass/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(41, 41, 41, 0.1500)"
+                "value": "rgb(41, 41, 41, 0.1500)"
               },
               "name": "pf-t--global--box-shadow--color--100",
               "attributes": {
@@ -14910,7 +14910,7 @@
         "default": {
           "description": "Use as the color of small box-shadows.",
           "type": "color",
-          "value": "rgba(41, 41, 41, 0.2000)",
+          "value": "rgb(41, 41, 41, 0.2000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -14936,12 +14936,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(41, 41, 41, 0.2000)",
+              "value": "rgb(41, 41, 41, 0.2000)",
               "filePath": "tokens/default/glass/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(41, 41, 41, 0.2000)"
+                "value": "rgb(41, 41, 41, 0.2000)"
               },
               "name": "pf-t--global--box-shadow--color--200",
               "attributes": {
@@ -14964,7 +14964,7 @@
         "default": {
           "description": "Use as the color of medium box-shadows.",
           "type": "color",
-          "value": "rgba(41, 41, 41, 0.1500)",
+          "value": "rgb(41, 41, 41, 0.1500)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -14990,12 +14990,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(41, 41, 41, 0.1500)",
+              "value": "rgb(41, 41, 41, 0.1500)",
               "filePath": "tokens/default/glass/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(41, 41, 41, 0.1500)"
+                "value": "rgb(41, 41, 41, 0.1500)"
               },
               "name": "pf-t--global--box-shadow--color--100",
               "attributes": {
@@ -15018,7 +15018,7 @@
         "default": {
           "description": "Use as the color of medium box-shadows.",
           "type": "color",
-          "value": "rgba(41, 41, 41, 0.1500)",
+          "value": "rgb(41, 41, 41, 0.1500)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -15044,12 +15044,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(41, 41, 41, 0.1500)",
+              "value": "rgb(41, 41, 41, 0.1500)",
               "filePath": "tokens/default/glass/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(41, 41, 41, 0.1500)"
+                "value": "rgb(41, 41, 41, 0.1500)"
               },
               "name": "pf-t--global--box-shadow--color--100",
               "attributes": {
@@ -15072,7 +15072,7 @@
         "default": {
           "description": "Use as the color of large box-shadows.",
           "type": "color",
-          "value": "rgba(41, 41, 41, 0.1500)",
+          "value": "rgb(41, 41, 41, 0.1500)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -15098,12 +15098,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(41, 41, 41, 0.1500)",
+              "value": "rgb(41, 41, 41, 0.1500)",
               "filePath": "tokens/default/glass/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(41, 41, 41, 0.1500)"
+                "value": "rgb(41, 41, 41, 0.1500)"
               },
               "name": "pf-t--global--box-shadow--color--100",
               "attributes": {
@@ -15126,7 +15126,7 @@
         "default": {
           "description": "Use as the color of large box-shadows.",
           "type": "color",
-          "value": "rgba(41, 41, 41, 0.2000)",
+          "value": "rgb(41, 41, 41, 0.2000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -15152,12 +15152,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(41, 41, 41, 0.2000)",
+              "value": "rgb(41, 41, 41, 0.2000)",
               "filePath": "tokens/default/glass/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(41, 41, 41, 0.2000)"
+                "value": "rgb(41, 41, 41, 0.2000)"
               },
               "name": "pf-t--global--box-shadow--color--200",
               "attributes": {
@@ -15511,13 +15511,13 @@
         "default": {
           "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
           "type": "color",
-          "value": "rgba(255, 255, 255, 0.6000)",
+          "value": "rgb(255, 255, 255, 0.6000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
             "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
             "type": "color",
-            "value": "rgba(255, 255, 255, 0.6000)"
+            "value": "rgb(255, 255, 255, 0.6000)"
           },
           "name": "pf-t--global--background--color--primary--default",
           "attributes": {
@@ -15540,13 +15540,13 @@
         "default": {
           "description": "Use as the hover state for primary backgrounds",
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.3000)",
+          "value": "rgb(199, 199, 199, 0.3000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
             "description": "Use as the hover state for primary backgrounds",
             "type": "color",
-            "value": "rgba(199, 199, 199, 0.3000)"
+            "value": "rgb(199, 199, 199, 0.3000)"
           },
           "name": "pf-t--global--background--color--primary--hover",
           "attributes": {
@@ -15569,13 +15569,13 @@
         "default": {
           "description": "Use as the clicked state for primary backgrounds",
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.3000)",
+          "value": "rgb(199, 199, 199, 0.3000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
             "description": "Use as the clicked state for primary backgrounds",
             "type": "color",
-            "value": "rgba(199, 199, 199, 0.3000)"
+            "value": "rgb(199, 199, 199, 0.3000)"
           },
           "name": "pf-t--global--background--color--primary--clicked",
           "attributes": {
@@ -15598,13 +15598,13 @@
         "default": {
           "description": "Use as the secondary background color for UI content Use as the primary background color for UI content such as cards, page sections, and other content areas. Secondary background color is also used for our UI shell backgrounds (nav, masthead, etc).",
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.3000)",
+          "value": "rgb(199, 199, 199, 0.3000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
             "description": "Use as the secondary background color for UI content Use as the primary background color for UI content such as cards, page sections, and other content areas. Secondary background color is also used for our UI shell backgrounds (nav, masthead, etc).",
             "type": "color",
-            "value": "rgba(199, 199, 199, 0.3000)"
+            "value": "rgb(199, 199, 199, 0.3000)"
           },
           "name": "pf-t--global--background--color--secondary--default",
           "attributes": {
@@ -15627,13 +15627,13 @@
         "default": {
           "description": "Use as the hover state for secondary backgrounds",
           "type": "color",
-          "value": "rgba(163, 163, 163, 0.3000)",
+          "value": "rgb(163, 163, 163, 0.3000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
             "description": "Use as the hover state for secondary backgrounds",
             "type": "color",
-            "value": "rgba(163, 163, 163, 0.3000)"
+            "value": "rgb(163, 163, 163, 0.3000)"
           },
           "name": "pf-t--global--background--color--secondary--hover",
           "attributes": {
@@ -15656,13 +15656,13 @@
         "default": {
           "description": "Use as the clicked state for secondary backgrounds",
           "type": "color",
-          "value": "rgba(163, 163, 163, 0.3000)",
+          "value": "rgb(163, 163, 163, 0.3000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
             "description": "Use as the clicked state for secondary backgrounds",
             "type": "color",
-            "value": "rgba(163, 163, 163, 0.3000)"
+            "value": "rgb(163, 163, 163, 0.3000)"
           },
           "name": "pf-t--global--background--color--secondary--clicked",
           "attributes": {
@@ -15685,7 +15685,7 @@
         "default": {
           "description": "Use as the tertiary background color. This is primarily used for containers that can be placed on secondary backgrounds.",
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.2500)",
+          "value": "rgb(199, 199, 199, 0.2500)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -15711,12 +15711,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(199, 199, 199, 0.2500)",
+              "value": "rgb(199, 199, 199, 0.2500)",
               "filePath": "tokens/default/glass/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(199, 199, 199, 0.2500)"
+                "value": "rgb(199, 199, 199, 0.2500)"
               },
               "name": "pf-t--global--background--color--600",
               "attributes": {
@@ -15738,12 +15738,12 @@
       "pf-t--global--background--color--glass--primary--default": {
         "default": {
           "type": "color",
-          "value": "rgba(255, 255, 255, 0.5000)",
+          "value": "rgb(255, 255, 255, 0.5000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "rgba(255, 255, 255, 0.5000)"
+            "value": "rgb(255, 255, 255, 0.5000)"
           },
           "name": "pf-t--global--background--color--glass--primary--default",
           "attributes": {
@@ -16174,13 +16174,13 @@
         "default": {
           "description": "Use as the default background for actions with transparent backgrounds such as menu items, accordion toggles, buttons, etc.",
           "type": "color",
-          "value": "rgba(255, 255, 255, 0.0000)",
+          "value": "rgb(255, 255, 255, 0.0000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
             "description": "Use as the default background for actions with transparent backgrounds such as menu items, accordion toggles, buttons, etc.",
             "type": "color",
-            "value": "rgba(255, 255, 255, 0.0000)"
+            "value": "rgb(255, 255, 255, 0.0000)"
           },
           "name": "pf-t--global--background--color--action--plain--default",
           "attributes": {
@@ -16204,7 +16204,7 @@
         "default": {
           "description": "Use as the hover state for components that use the plain action default background.",
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.2500)",
+          "value": "rgb(199, 199, 199, 0.2500)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -16231,12 +16231,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(199, 199, 199, 0.2500)",
+              "value": "rgb(199, 199, 199, 0.2500)",
               "filePath": "tokens/default/glass/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(199, 199, 199, 0.2500)"
+                "value": "rgb(199, 199, 199, 0.2500)"
               },
               "name": "pf-t--global--background--color--600",
               "attributes": {
@@ -16259,7 +16259,7 @@
         "default": {
           "description": "Use as the active/pressed state for components that use the plain action default background.",
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.2500)",
+          "value": "rgb(199, 199, 199, 0.2500)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -16286,12 +16286,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(199, 199, 199, 0.2500)",
+              "value": "rgb(199, 199, 199, 0.2500)",
               "filePath": "tokens/default/glass/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(199, 199, 199, 0.2500)"
+                "value": "rgb(199, 199, 199, 0.2500)"
               },
               "name": "pf-t--global--background--color--600",
               "attributes": {
@@ -16314,7 +16314,7 @@
         "default": {
           "description": "Use as the hover state for components that use the plain action default background but are placed on a secondary background color (like left nav, horizontal nav, etc.)",
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.2500)",
+          "value": "rgb(199, 199, 199, 0.2500)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -16343,7 +16343,7 @@
             {
               "description": "Use as the hover state for components that use the plain action default background.",
               "type": "color",
-              "value": "rgba(199, 199, 199, 0.2500)",
+              "value": "rgb(199, 199, 199, 0.2500)",
               "filePath": "tokens/default/glass/semantic.glass.json",
               "isSource": true,
               "original": {
@@ -16370,12 +16370,12 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "rgba(199, 199, 199, 0.2500)",
+                  "value": "rgb(199, 199, 199, 0.2500)",
                   "filePath": "tokens/default/glass/base.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "rgba(199, 199, 199, 0.2500)"
+                    "value": "rgb(199, 199, 199, 0.2500)"
                   },
                   "name": "pf-t--global--background--color--600",
                   "attributes": {
@@ -16400,7 +16400,7 @@
         "default": {
           "description": "Use as the active/pressed state for components that use the plain action default background but are placed on a secondary background color (like left nav, horizontal nav, etc.)",
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.2500)",
+          "value": "rgb(199, 199, 199, 0.2500)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -16429,7 +16429,7 @@
             {
               "description": "Use as the active/pressed state for components that use the plain action default background.",
               "type": "color",
-              "value": "rgba(199, 199, 199, 0.2500)",
+              "value": "rgb(199, 199, 199, 0.2500)",
               "filePath": "tokens/default/glass/semantic.glass.json",
               "isSource": true,
               "original": {
@@ -16456,12 +16456,12 @@
               "references": [
                 {
                   "type": "color",
-                  "value": "rgba(199, 199, 199, 0.2500)",
+                  "value": "rgb(199, 199, 199, 0.2500)",
                   "filePath": "tokens/default/glass/base.json",
                   "isSource": true,
                   "original": {
                     "type": "color",
-                    "value": "rgba(199, 199, 199, 0.2500)"
+                    "value": "rgb(199, 199, 199, 0.2500)"
                   },
                   "name": "pf-t--global--background--color--600",
                   "attributes": {
@@ -16486,7 +16486,7 @@
         "default": {
           "description": "Use as the default background for control elements like form inputs and menu toggles.",
           "type": "color",
-          "value": "rgba(255, 255, 255, 0.6000)",
+          "value": "rgb(255, 255, 255, 0.6000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -16513,13 +16513,13 @@
             {
               "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
               "type": "color",
-              "value": "rgba(255, 255, 255, 0.6000)",
+              "value": "rgb(255, 255, 255, 0.6000)",
               "filePath": "tokens/default/glass/semantic.glass.json",
               "isSource": true,
               "original": {
                 "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
                 "type": "color",
-                "value": "rgba(255, 255, 255, 0.6000)"
+                "value": "rgb(255, 255, 255, 0.6000)"
               },
               "name": "pf-t--global--background--color--primary--default",
               "attributes": {
@@ -16927,7 +16927,7 @@
         "default": {
           "description": "Use as the background color for the backdrop component that shows beneath a modal/about modal/floating wizard etc.",
           "type": "color",
-          "value": "rgba(21, 21, 21, 0.4000)",
+          "value": "rgb(21, 21, 21, 0.4000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -16953,12 +16953,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(21, 21, 21, 0.4000)",
+              "value": "rgb(21, 21, 21, 0.4000)",
               "filePath": "tokens/default/glass/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(21, 21, 21, 0.4000)"
+                "value": "rgb(21, 21, 21, 0.4000)"
               },
               "name": "pf-t--global--background--color--500",
               "attributes": {
@@ -16980,7 +16980,7 @@
       "pf-t--global--background--color--striped--row--default": {
         "default": {
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.1000)",
+          "value": "rgb(199, 199, 199, 0.1000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -17006,12 +17006,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(199, 199, 199, 0.1000)",
+              "value": "rgb(199, 199, 199, 0.1000)",
               "filePath": "tokens/default/glass/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(199, 199, 199, 0.1000)"
+                "value": "rgb(199, 199, 199, 0.1000)"
               },
               "name": "pf-t--global--background--color--700",
               "attributes": {
@@ -17033,7 +17033,7 @@
       "pf-t--global--background--color--loading--skeleton--default": {
         "default": {
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.2500)",
+          "value": "rgb(199, 199, 199, 0.2500)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -17059,12 +17059,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(199, 199, 199, 0.2500)",
+              "value": "rgb(199, 199, 199, 0.2500)",
               "filePath": "tokens/default/glass/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(199, 199, 199, 0.2500)"
+                "value": "rgb(199, 199, 199, 0.2500)"
               },
               "name": "pf-t--global--background--color--600",
               "attributes": {
@@ -17086,7 +17086,7 @@
       "pf-t--global--background--color--loading--skeleton--subtle": {
         "default": {
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.1000)",
+          "value": "rgb(199, 199, 199, 0.1000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -17112,12 +17112,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(199, 199, 199, 0.1000)",
+              "value": "rgb(199, 199, 199, 0.1000)",
               "filePath": "tokens/default/glass/base.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(199, 199, 199, 0.1000)"
+                "value": "rgb(199, 199, 199, 0.1000)"
               },
               "name": "pf-t--global--background--color--700",
               "attributes": {
@@ -19991,7 +19991,7 @@
         "default": {
           "description": "Use as the default color for elements that convey a read status and are placed on a secondary background",
           "type": "color",
-          "value": "rgba(255, 255, 255, 0.6000)",
+          "value": "rgb(255, 255, 255, 0.6000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -20018,7 +20018,7 @@
             {
               "description": "Use as the default background for control elements like form inputs and menu toggles.",
               "type": "color",
-              "value": "rgba(255, 255, 255, 0.6000)",
+              "value": "rgb(255, 255, 255, 0.6000)",
               "filePath": "tokens/default/glass/semantic.glass.json",
               "isSource": true,
               "original": {
@@ -20045,13 +20045,13 @@
                 {
                   "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
                   "type": "color",
-                  "value": "rgba(255, 255, 255, 0.6000)",
+                  "value": "rgb(255, 255, 255, 0.6000)",
                   "filePath": "tokens/default/glass/semantic.glass.json",
                   "isSource": true,
                   "original": {
                     "description": "Use as the primary background color for UI content such as cards, page sections, and other content areas.",
                     "type": "color",
-                    "value": "rgba(255, 255, 255, 0.6000)"
+                    "value": "rgb(255, 255, 255, 0.6000)"
                   },
                   "name": "pf-t--global--background--color--primary--default",
                   "attributes": {
@@ -20078,7 +20078,7 @@
         "default": {
           "description": "Use as the default color for elements that convey a read status and are placed on a primary background",
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.3000)",
+          "value": "rgb(199, 199, 199, 0.3000)",
           "filePath": "tokens/default/glass/semantic.glass.json",
           "isSource": true,
           "original": {
@@ -20105,13 +20105,13 @@
             {
               "description": "Use as the secondary background color for UI content Use as the primary background color for UI content such as cards, page sections, and other content areas. Secondary background color is also used for our UI shell backgrounds (nav, masthead, etc).",
               "type": "color",
-              "value": "rgba(199, 199, 199, 0.3000)",
+              "value": "rgb(199, 199, 199, 0.3000)",
               "filePath": "tokens/default/glass/semantic.glass.json",
               "isSource": true,
               "original": {
                 "description": "Use as the secondary background color for UI content Use as the primary background color for UI content such as cards, page sections, and other content areas. Secondary background color is also used for our UI shell backgrounds (nav, masthead, etc).",
                 "type": "color",
-                "value": "rgba(199, 199, 199, 0.3000)"
+                "value": "rgb(199, 199, 199, 0.3000)"
               },
               "name": "pf-t--global--background--color--secondary--default",
               "attributes": {
@@ -31429,12 +31429,12 @@
       "pf-t--global--box-shadow--color--100": {
         "default": {
           "type": "color",
-          "value": "rgba(41, 41, 41, 0.1500)",
+          "value": "rgb(41, 41, 41, 0.1500)",
           "filePath": "tokens/default/glass/base.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "rgba(41, 41, 41, 0.1500)"
+            "value": "rgb(41, 41, 41, 0.1500)"
           },
           "name": "pf-t--global--box-shadow--color--100",
           "attributes": {
@@ -31454,12 +31454,12 @@
       "pf-t--global--box-shadow--color--200": {
         "default": {
           "type": "color",
-          "value": "rgba(41, 41, 41, 0.2000)",
+          "value": "rgb(41, 41, 41, 0.2000)",
           "filePath": "tokens/default/glass/base.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "rgba(41, 41, 41, 0.2000)"
+            "value": "rgb(41, 41, 41, 0.2000)"
           },
           "name": "pf-t--global--box-shadow--color--200",
           "attributes": {
@@ -31717,12 +31717,12 @@
       "pf-t--global--background--color--500": {
         "default": {
           "type": "color",
-          "value": "rgba(21, 21, 21, 0.4000)",
+          "value": "rgb(21, 21, 21, 0.4000)",
           "filePath": "tokens/default/glass/base.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "rgba(21, 21, 21, 0.4000)"
+            "value": "rgb(21, 21, 21, 0.4000)"
           },
           "name": "pf-t--global--background--color--500",
           "attributes": {
@@ -31742,12 +31742,12 @@
       "pf-t--global--background--color--600": {
         "default": {
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.2500)",
+          "value": "rgb(199, 199, 199, 0.2500)",
           "filePath": "tokens/default/glass/base.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "rgba(199, 199, 199, 0.2500)"
+            "value": "rgb(199, 199, 199, 0.2500)"
           },
           "name": "pf-t--global--background--color--600",
           "attributes": {
@@ -31767,12 +31767,12 @@
       "pf-t--global--background--color--700": {
         "default": {
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.1000)",
+          "value": "rgb(199, 199, 199, 0.1000)",
           "filePath": "tokens/default/glass/base.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "rgba(199, 199, 199, 0.1000)"
+            "value": "rgb(199, 199, 199, 0.1000)"
           },
           "name": "pf-t--global--background--color--700",
           "attributes": {
