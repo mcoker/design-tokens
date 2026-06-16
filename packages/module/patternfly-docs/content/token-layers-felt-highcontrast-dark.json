@@ -450,7 +450,7 @@
         "default": {
           "description": "Use as the tertiary background color. This is primarily used for containers that can be placed on secondary backgrounds.",
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.1500)",
+          "value": "rgb(199, 199, 199, 0.1500)",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
@@ -476,12 +476,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(199, 199, 199, 0.1500)",
+              "value": "rgb(199, 199, 199, 0.1500)",
               "filePath": "tokens/default/highcontrast-dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(199, 199, 199, 0.1500)"
+                "value": "rgb(199, 199, 199, 0.1500)"
               },
               "name": "pf-t--global--dark--background--color--600",
               "attributes": {
@@ -1007,13 +1007,13 @@
         "default": {
           "description": "Use as the default background for actions with transparent backgrounds such as menu items, accordion toggles, buttons, etc.",
           "type": "color",
-          "value": "rgba(0, 0, 0, 0.0000)",
+          "value": "rgb(0, 0, 0, 0.0000)",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
             "description": "Use as the default background for actions with transparent backgrounds such as menu items, accordion toggles, buttons, etc.",
             "type": "color",
-            "value": "rgba(0, 0, 0, 0.0000)"
+            "value": "rgb(0, 0, 0, 0.0000)"
           },
           "name": "pf-t--global--background--color--action--plain--default",
           "attributes": {
@@ -1037,7 +1037,7 @@
         "default": {
           "description": "Use as the hover state for components that use the plain action default background.",
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.1500)",
+          "value": "rgb(199, 199, 199, 0.1500)",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
@@ -1064,12 +1064,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(199, 199, 199, 0.1500)",
+              "value": "rgb(199, 199, 199, 0.1500)",
               "filePath": "tokens/default/highcontrast-dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(199, 199, 199, 0.1500)"
+                "value": "rgb(199, 199, 199, 0.1500)"
               },
               "name": "pf-t--global--dark--background--color--600",
               "attributes": {
@@ -1094,7 +1094,7 @@
         "default": {
           "description": "Use as the active/pressed state for components that use the plain action default background.",
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.1500)",
+          "value": "rgb(199, 199, 199, 0.1500)",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
@@ -1121,12 +1121,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(199, 199, 199, 0.1500)",
+              "value": "rgb(199, 199, 199, 0.1500)",
               "filePath": "tokens/default/highcontrast-dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(199, 199, 199, 0.1500)"
+                "value": "rgb(199, 199, 199, 0.1500)"
               },
               "name": "pf-t--global--dark--background--color--600",
               "attributes": {
@@ -1945,7 +1945,7 @@
         "default": {
           "description": "Use as the background color for the backdrop component that shows beneath a modal/about modal/floating wizard etc.",
           "type": "color",
-          "value": "rgba(21, 21, 21, 0.8000)",
+          "value": "rgb(21, 21, 21, 0.8000)",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
@@ -1971,12 +1971,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(21, 21, 21, 0.8000)",
+              "value": "rgb(21, 21, 21, 0.8000)",
               "filePath": "tokens/default/highcontrast-dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(21, 21, 21, 0.8000)"
+                "value": "rgb(21, 21, 21, 0.8000)"
               },
               "name": "pf-t--global--dark--background--color--500",
               "attributes": {
@@ -2000,12 +2000,12 @@
       "pf-t--global--background--color--striped--row--default": {
         "default": {
           "type": "color",
-          "value": "rgba(21, 21, 21, 0.3000)",
+          "value": "rgb(21, 21, 21, 0.3000)",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "rgba(21, 21, 21, 0.3000)"
+            "value": "rgb(21, 21, 21, 0.3000)"
           },
           "name": "pf-t--global--background--color--striped--row--default",
           "attributes": {
@@ -2028,7 +2028,7 @@
       "pf-t--global--background--color--loading--skeleton--default": {
         "default": {
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.2500)",
+          "value": "rgb(199, 199, 199, 0.2500)",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
@@ -2054,12 +2054,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(199, 199, 199, 0.2500)",
+              "value": "rgb(199, 199, 199, 0.2500)",
               "filePath": "tokens/default/highcontrast-dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(199, 199, 199, 0.2500)"
+                "value": "rgb(199, 199, 199, 0.2500)"
               },
               "name": "pf-t--global--dark--background--color--700",
               "attributes": {
@@ -2083,7 +2083,7 @@
       "pf-t--global--background--color--loading--skeleton--subtle": {
         "default": {
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.1500)",
+          "value": "rgb(199, 199, 199, 0.1500)",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
@@ -2109,12 +2109,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(199, 199, 199, 0.1500)",
+              "value": "rgb(199, 199, 199, 0.1500)",
               "filePath": "tokens/default/highcontrast-dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(199, 199, 199, 0.1500)"
+                "value": "rgb(199, 199, 199, 0.1500)"
               },
               "name": "pf-t--global--dark--background--color--600",
               "attributes": {
@@ -30761,7 +30761,7 @@
         "default": {
           "description": "Use as the color of small box-shadows.",
           "type": "color",
-          "value": "rgba(0, 0, 0, 0.5000)",
+          "value": "rgb(0, 0, 0, 0.5000)",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
@@ -30787,12 +30787,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(0, 0, 0, 0.5000)",
+              "value": "rgb(0, 0, 0, 0.5000)",
               "filePath": "tokens/default/highcontrast-dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(0, 0, 0, 0.5000)"
+                "value": "rgb(0, 0, 0, 0.5000)"
               },
               "name": "pf-t--global--dark--box-shadow--color--100",
               "attributes": {
@@ -30817,7 +30817,7 @@
         "default": {
           "description": "Use as the color of small box-shadows.",
           "type": "color",
-          "value": "rgba(0, 0, 0, 0.6000)",
+          "value": "rgb(0, 0, 0, 0.6000)",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
@@ -30843,12 +30843,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(0, 0, 0, 0.6000)",
+              "value": "rgb(0, 0, 0, 0.6000)",
               "filePath": "tokens/default/highcontrast-dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(0, 0, 0, 0.6000)"
+                "value": "rgb(0, 0, 0, 0.6000)"
               },
               "name": "pf-t--global--dark--box-shadow--color--200",
               "attributes": {
@@ -30873,7 +30873,7 @@
         "default": {
           "description": "Use as the color of medium box-shadows.",
           "type": "color",
-          "value": "rgba(0, 0, 0, 0.5000)",
+          "value": "rgb(0, 0, 0, 0.5000)",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
@@ -30899,12 +30899,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(0, 0, 0, 0.5000)",
+              "value": "rgb(0, 0, 0, 0.5000)",
               "filePath": "tokens/default/highcontrast-dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(0, 0, 0, 0.5000)"
+                "value": "rgb(0, 0, 0, 0.5000)"
               },
               "name": "pf-t--global--dark--box-shadow--color--100",
               "attributes": {
@@ -30929,7 +30929,7 @@
         "default": {
           "description": "Use as the color of medium box-shadows.",
           "type": "color",
-          "value": "rgba(0, 0, 0, 0.6000)",
+          "value": "rgb(0, 0, 0, 0.6000)",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
@@ -30955,12 +30955,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(0, 0, 0, 0.6000)",
+              "value": "rgb(0, 0, 0, 0.6000)",
               "filePath": "tokens/default/highcontrast-dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(0, 0, 0, 0.6000)"
+                "value": "rgb(0, 0, 0, 0.6000)"
               },
               "name": "pf-t--global--dark--box-shadow--color--200",
               "attributes": {
@@ -30985,7 +30985,7 @@
         "default": {
           "description": "Use as the color of large box-shadows.",
           "type": "color",
-          "value": "rgba(0, 0, 0, 0.5000)",
+          "value": "rgb(0, 0, 0, 0.5000)",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
@@ -31011,12 +31011,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(0, 0, 0, 0.5000)",
+              "value": "rgb(0, 0, 0, 0.5000)",
               "filePath": "tokens/default/highcontrast-dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(0, 0, 0, 0.5000)"
+                "value": "rgb(0, 0, 0, 0.5000)"
               },
               "name": "pf-t--global--dark--box-shadow--color--100",
               "attributes": {
@@ -31041,7 +31041,7 @@
         "default": {
           "description": "Use as the color of large box-shadows.",
           "type": "color",
-          "value": "rgba(0, 0, 0, 0.6000)",
+          "value": "rgb(0, 0, 0, 0.6000)",
           "filePath": "tokens/default/highcontrast-dark/semantic.highcontrast.dark.json",
           "isSource": true,
           "original": {
@@ -31067,12 +31067,12 @@
           "references": [
             {
               "type": "color",
-              "value": "rgba(0, 0, 0, 0.6000)",
+              "value": "rgb(0, 0, 0, 0.6000)",
               "filePath": "tokens/default/highcontrast-dark/base.dark.json",
               "isSource": true,
               "original": {
                 "type": "color",
-                "value": "rgba(0, 0, 0, 0.6000)"
+                "value": "rgb(0, 0, 0, 0.6000)"
               },
               "name": "pf-t--global--dark--box-shadow--color--200",
               "attributes": {
@@ -31606,12 +31606,12 @@
       "pf-t--global--dark--background--color--500": {
         "default": {
           "type": "color",
-          "value": "rgba(21, 21, 21, 0.8000)",
+          "value": "rgb(21, 21, 21, 0.8000)",
           "filePath": "tokens/default/highcontrast-dark/base.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "rgba(21, 21, 21, 0.8000)"
+            "value": "rgb(21, 21, 21, 0.8000)"
           },
           "name": "pf-t--global--dark--background--color--500",
           "attributes": {
@@ -31633,12 +31633,12 @@
       "pf-t--global--dark--background--color--600": {
         "default": {
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.1500)",
+          "value": "rgb(199, 199, 199, 0.1500)",
           "filePath": "tokens/default/highcontrast-dark/base.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "rgba(199, 199, 199, 0.1500)"
+            "value": "rgb(199, 199, 199, 0.1500)"
           },
           "name": "pf-t--global--dark--background--color--600",
           "attributes": {
@@ -31660,12 +31660,12 @@
       "pf-t--global--dark--background--color--700": {
         "default": {
           "type": "color",
-          "value": "rgba(199, 199, 199, 0.2500)",
+          "value": "rgb(199, 199, 199, 0.2500)",
           "filePath": "tokens/default/highcontrast-dark/base.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "rgba(199, 199, 199, 0.2500)"
+            "value": "rgb(199, 199, 199, 0.2500)"
           },
           "name": "pf-t--global--dark--background--color--700",
           "attributes": {
@@ -35947,12 +35947,12 @@
       "pf-t--global--dark--box-shadow--color--100": {
         "default": {
           "type": "color",
-          "value": "rgba(0, 0, 0, 0.5000)",
+          "value": "rgb(0, 0, 0, 0.5000)",
           "filePath": "tokens/default/highcontrast-dark/base.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "rgba(0, 0, 0, 0.5000)"
+            "value": "rgb(0, 0, 0, 0.5000)"
           },
           "name": "pf-t--global--dark--box-shadow--color--100",
           "attributes": {
@@ -35974,12 +35974,12 @@
       "pf-t--global--dark--box-shadow--color--200": {
         "default": {
           "type": "color",
-          "value": "rgba(0, 0, 0, 0.6000)",
+          "value": "rgb(0, 0, 0, 0.6000)",
           "filePath": "tokens/default/highcontrast-dark/base.dark.json",
           "isSource": true,
           "original": {
             "type": "color",
-            "value": "rgba(0, 0, 0, 0.6000)"
+            "value": "rgb(0, 0, 0, 0.6000)"
           },
           "name": "pf-t--global--dark--box-shadow--color--200",
           "attributes": {

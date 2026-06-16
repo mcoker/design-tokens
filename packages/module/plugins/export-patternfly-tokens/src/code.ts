@@ -113,7 +113,7 @@ function processCollection(collection) {
 function rgbToHex(value) {
   const { r, g, b, a } = value;
   if (a !== 1) {
-    return `rgba(${[r, g, b].map((n) => Math.round(n * 255)).join(', ')}, ${a.toFixed(4)})`;
+    return `rgb(${[r, g, b].map((n) => Math.round(n * 255)).join(', ')}, ${a.toFixed(4)})`;
   }
   const toHex = (value) => {
     const hex = Math.round(value * 255).toString(16);
